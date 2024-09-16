@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/themes/splide-skyblue.min.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/product-style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container-fluid">
+        <header>
+            <div class="header">
+                <button class="menu-btn" aria-label="Open Menu">
+                    <a class="navbar-brand" href="#"><img src="./images/menu.png" alt="" srcset="" /></a>
+                </button>
+                <div class="logo">
+                    <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="logo" class="img-fluid"
+                            srcset="" /></a>
+                </div>
+                <nav class="menu">
+                    <div class="drawer">
+                        <button class="close-btn" aria-label="Close Menu">
+                            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"
+                                aria-label="Close Menu" role="img">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                </path>
+                            </svg>
+                        </button>
+                        <ul class="navbar-nav nav-menus">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle-icon" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    ABOUT
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="./about.html">Our Story</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Beauty Rituals</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle-icon" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    SHOP
+                                </a>
+                                <ul class="dropdown-menu mega-menu">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-1">
+                                                <p class="mega-menu-heading">VIEW ALL</p>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <p class="mega-menu-heading">Skin Concern</p>
+                                                <p><a href="">Dryness + Dehydrated</a></p>
+                                                <p><a href="">Dullness + Uneven tone</a></p>
+                                                <p><a href="">Dark spots + Hyperpigmentation</a></p>
+                                                <p><a href="">Clogged + Congested</a></p>
+                                                <p><a href="">Sensitive + Inflamed</a></p>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <p class="mega-menu-heading">Product Type</p>
+                                                <p><a href="">Skincare</a></p>
+                                                <p><a href="">Sets & Minis</a></p>
+                                                <p><a href="">Merch</a></p>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <p class="mega-menu-heading">Featured</p>
+                                                <p><a href="">New</a></p>
+                                                <p><a href="">Bestsellers</a></p>
+                                                <p><a href="">Viral</a></p>
+                                                <p><a href="">Save $5</a></p>
+                                                <p><a href="">Back in Stock</a></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-lg-3 offset-lg-1">
+                                                <div class="product-wrap">
+                                                    <a href="#">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <img src="./images/product.png" alt="img" srcset=""
+                                                                    class="img-fluid" />
+                                                                <div class="product-info">
+                                                                    <p class="product-title">
+                                                                        African beauty butter – Intensive dry skin
+                                                                        treatment
+                                                                    </p>
+                                                                    <p class="product-price">$36</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SKIN QUIZ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">AMBASSADORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">REWARDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="blank"></div> -->
+                </nav>
+                <ul class="navbar-nav nav-buttons d-flex">
+                    <li class="nav-item">
+                        <a href="#" class="search-btn d-flex"><img src="./images/loupe.png" alt="" srcset="" /></a>
+                    </li>
+                    <div class="search-menu">
+                        <div>
+                            <h2><span class="inner-content">Search</span> on 54 thrones</h2>
+                            <div class="input-wrap">
+                                <input type="text" name="search" placeholder="Type here" class="search-box" />
+                                <span class="clear-icon">×</span>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item">
+                        <a href="#" class="log-in-btn">LOG IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="cart-btn"><img src="./images/cart.png" alt="" srcset="" />0</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <!-- Banner section -->
+    <!-- card_displaysection -->
+    <section class="product_card_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 left-slid-col">
+                    <div id="main-slider" class="splide ">
+                        <div class="splide__track left_section">
+                            <div class="desk-card-tag">
+                                <p class="star-text">
+                                    <img src="./images/blue-star.png" class="img-fluid" alt="product" />
+                                    BRIGHTENS + TONES
+                                </p>
+                                <p class="fav-text">TIKTOK FAVE</p>
+                            </div>
+                            <ul class="splide__list text-center">
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <ul id="thumbnails" class="thumbnails">
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="right_product_section ">
+                        <div class="backToshop py-3">
+                            <p><a href="javascript:void()"><span><img src="./images/left-back.png" alt="backarrow"
+                                            class="img-fluid me-3"></span>Back to shop</a></p>
+                        </div>
+
+                        <div class="product_content">
+                            <h2>Barrier Repair <span class="cream_text">Cloud Cream</span></h2>
+
+                            <p class="pb-3"><img src="./images/half_fourstars.png" alt="halfstar"
+                                    class="img-fluid me-">(4.9) 12
+                                Reviews</p>
+
+                            <p>A fast-absorbing, ultra-hydrating, non-greasy body <br> cream great for daily use on all
+                                skin types. Rapidly <br> hydrates and protects skin barrier. </p>
+                        </div>
+
+                        <div class="three_icons mt-4">
+                            <div class="d-flex gap-4 icons-wrap">
+                                <div class="text-center">
+                                    <p class="mb-0"><img src="./images/vegan.png" alt="vegan" class="img-fluid"></p>
+                                    <p class="vegan_text">Vegan</p>
+
+                                </div>
+                                <div class="text-center">
+                                    <p class="mb-0"><img src="./images/gluten4.png" alt="gluten" class="img-fluid"></p>
+                                    <p class="vegan_text">Gluten Free</p>
+
+                                </div>
+                                <div class="text-center">
+                                    <p class="mb-0"><img src="./images/heart.png" alt="heart" class="img-fluid"></p>
+                                    <p class="vegan_text">Cruelty Free</p>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="add_to_cart mt-3">
+                            <div class="kenyan">
+                                <select class="" aria-label="Default select example">
+                                    <option selected>
+                                        Kenyan Hibiscus + Moroccan Rose
+                                    </option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                </select>
+                            </div>
+
+                            <div class="one_time_purchase">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label d-flex justify-content-between"
+                                        for="flexRadioDefault1">
+                                        <p class="rupees_text">ONE TIME PURCHASE</p>
+                                        <p class="ruppes">$36</p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label d-flex justify-content-between"
+                                        for="flexRadioDefault2">
+                                        <div>
+                                            <p class="mb-0">SUBSCRIBE, SAVE & GET FREE SHIPPING (5%) <span><img
+                                                        src="./images/ask-circle.png" alt="ask_circle"
+                                                        class="img-fluid"></span>
+                                            <p class="mb-0 free_delivery">Free delivery <u>every 1 months</u></p>
+                                        </div>
+                                        </p>
+                                        <p class="ruppes">$34.20</p>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="cart_part d-flex gap-2 align-items-center">
+                                <div class="product_quantity">
+                                    <button class="product_decrease products_btn">-</button><span>1</span> <button
+                                        class="product_increase products_btn">+</button>
+                                </div>
+                                <div class="add_btn flex-grow-1">
+                                    <button class="w-100">ADD TO CART <span><img src="./images/cart-icon.png"
+                                                alt="addtocart" class="img-fluid "></span></button>
+
+                                </div>
+                            </div>
+
+                            <div class="accordian_part">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Why You’ll Love It
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur rem
+                                                    autem repellat quis reprehenderit sequi qui consequatur nostrum.
+                                                    Pariatur distinctio incidunt commodi, quam dolorem dolores laborum
+                                                    asperiores fugiat! Dolores, ipsum?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                How To Use
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+                                                    expedita, atque voluptatum qui ad porro. In, nihil libero corporis
+                                                    quis tempore pariatur quo tenetur perspiciatis! Quis dolores libero
+                                                    accusamus repudiandae.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Ingredients
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingThree"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Consectetur, sed et. Reprehenderit cupiditate consectetur nulla
+                                                    quisquam facilis aliquam dolore. Quam ut minus itaque totam tempore
+                                                    natus quis omnis odio iure?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- a fast absorbing -->
+    <section class="fast_absorbing_section px-2">
+        <div class="container-fluid blend_background">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div>
+                        <p><img src="./images/icon.png" alt="star" class="img-fluid "></p>
+                    </div>
+                    <h1>A fast-absorbing, ultra-hydrating, non-greasy body cream <span class="cream_text">great for
+                            daily use</span> on all skin types. Rapidly hydrates and protects skin barrier. </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel-result-sec seller-sec seller-desktop-sec py-5">
+        <div class="container-fluid py-5">
+            <h2 class="result-heading text-center">
+                <span class="inner-heading">Results</span>
+            </h2>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-2">
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img1.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img2.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img3.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-2">
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img1.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img2.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img3.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-2">
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img1.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img2.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <img src="./images/be-af-img3.png" class="img-fluid img-full" alt="product" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile-cat-sec py-5">
+        <div class="container-fluid py-5">
+            <h2 class="result-heading text-center m-0 py-3">
+                <span class="inner-heading">Results</span>
+            </h2>
+            <div class="row g-2 row-gap-3">
+                <div class="col-sm-12">
+                    <img src="./images/be-af-img1.png" class="img-fluid" alt="product" />
+                </div>
+                <div class="col-sm-12">
+                    <img src="./images/be-af-img2.png" class="img-fluid" alt="product" />
+                </div>
+                <div class="col-sm-12">
+                    <img src="./images/be-af-img3.png" class="img-fluid" alt="product" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="your-rit-section py-lg-5 py-md-5">
+        <div class="container-fluid">
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-4 left-rit-col">
+                    <img src="./images/your-rit-img.png" class="img-fluid img-full" alt="img" />
+                </div>
+                <div class="col-lg-6 col-md-8 right-rit-col">
+                    <div class="right-rit-inner">
+                        <div>
+                            <h2 class="you-rit-heading">
+                                Your<span class="inner-heading"> Ritual</span>
+                            </h2>
+                            <p class="better-text"><img src="./images/star.png" class="img-fluid" alt="img" />Better
+                                together</p>
+                            <div class="inner-cart-wrap mt-5">
+                                <div class="inner-rit-cart-content">
+                                    <img src="./images/mini-prod-img1.png" class="img-fluid" alt="img" />
+                                    <div>
+                                        <p class="cart-mini-text">Mini African Beauty Butters</pc>
+                                        <p class="cart-mini-price">$36</p>
+                                    </div>
+
+                                </div>
+                                <p class="rit-add-cart-btn-wrap"><a href="#" class="rit-add-cart-btn">ADD TO CART <img
+                                            src="./images/brown-cart.png" class="img-fluid" alt="img" /></a></p>
+
+                            </div>
+                            <div class="inner-cart-wrap">
+                                <div class="inner-rit-cart-content">
+                                    <img src="./images/mini-prod-img1.png" class="img-fluid" alt="img" />
+                                    <div>
+                                        <p class="cart-mini-text">Mini African Beauty Butters</pc>
+                                        <p class="cart-mini-price">$36</p>
+                                    </div>
+
+                                </div>
+                                <p class="rit-add-cart-btn-wrap"><a href="#" class="rit-add-cart-btn">ADD TO CART <img
+                                            src="./images/brown-cart.png" class="img-fluid" alt="img" /></a></p>
+
+                            </div>
+                            <div class="inner-cart-wrap">
+                                <div class="inner-rit-cart-content">
+                                    <img src="./images/mini-prod-img1.png" class="img-fluid" alt="img" />
+                                    <div>
+                                        <p class="cart-mini-text">Mini African Beauty Butters</pc>
+                                        <p class="cart-mini-price">$36</p>
+                                    </div>
+
+                                </div>
+                                <p class="rit-add-cart-btn-wrap"><a href="#" class="rit-add-cart-btn">ADD TO CART <img
+                                            src="./images/brown-cart.png" class="img-fluid" alt="img" /></a></p>
+
+                            </div>
+                        </div>
+                        <div class="add-cart-btn-wrap">
+                            <p><a href="">ADD SET TO CART <img src="./images/cart-icon.png" class="img-fluid"
+                                        alt="img" /></a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video_section desktop-video-sec">
+        <video class="video-sec" height="255" poster="./images/watch-video.png" controls>
+            <source src="video.mp4" type="video/mp4" />
+            <source src="video.ogg" type="video/ogg" />
+            <source src="video.webm" type="video/webm" />
+            <object data="video.mp4" width="470" height="255">
+                <embed src="video.swf" width="470" height="255" />
+            </object>
+        </video>
+    </section>
+    <section class="video_section mob-video-sec pt-5">
+        <video class="video-sec" height="255" poster="./images/watch-video-mob.png" controls>
+            <source src="video.mp4" type="video/mp4" />
+            <source src="video.ogg" type="video/ogg" />
+            <source src="video.webm" type="video/webm" />
+            <object data="video.mp4" width="470" height="255">
+                <embed src="video.swf" width="470" height="255" />
+            </object>
+        </video>
+    </section>
+
+    <section class="key-section py-5">
+        <div class="container py-5 mt-lg-5">
+            <h2 class="key-heading text-center">
+                Key<span class="inner-heading"> Ingredients</span>
+            </h2>
+            <div class="row py-lg-5 py-md-5 my-lg-5">
+                <div class="col-lg-4 col-md-4 key-col">
+                    <img src="./images/key-img1.png" class="img-fluid" alt="img" />
+                    <p class="key-title">Peptides</p>
+                    <p class="key-text">
+                        Support a healthy skin barrier and collagen production
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 key-col">
+                    <img src="./images/key-img2.png" class="img-fluid" alt="img" />
+                    <p class="key-title">Hyaluronic Acid/ Sodium Hyaluronate</p>
+                    <p class="key-text">Draws in moisture to increase skin hydration</p>
+                </div>
+                <div class="col-lg-4 col-md-4 key-col">
+                    <img src="./images/key-img3.png" class="img-fluid" alt="img" />
+                    <p class="key-title">Resurrection Plant</p>
+                    <p class="key-text">
+                        Prevents water loss and rapidly hydrates skin
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row py-4 g-0">
+                <div class="col-lg-6 col-md-6">
+                    <img src="./images/key-flow.png" class="img-fluid img-full" alt="img" />
+                </div>
+                <div class="col-lg-6 col-md-6 key-flow-right">
+                    <p class="key-small-text"><img src="./images/mid-blue-star.png" class="img-fluid" alt="img" />Scent
+                        stories</p>
+                    <h2 class="key-flow-heading">Ugandan Vanilla + <br> Ethiopian Honey</h2>
+                    <p class="key-flow-text">Draws in moisture to increase skin hydration.</p>
+                    <h2 class="key-flow-heading">Kenyan Hibiscus + <br> Moroccan Rose</h2>
+                    <p class="key-flow-text">Support a healthy skin barrier and collagen production.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider_section carousel-sec rev-carousel-sec rev-desk-sec py-5">
+        <div class="container-fluid py-5">
+            <div class="row">
+                <h2 class="our-seller-heading text-center">
+                    Customer<span class="inner-heading"> reviews</span>
+                </h2>
+                <div class="wrapper ps-3">
+                    <div class="my-slider">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <div class="card-body custom_card">
+                                    <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>AM</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Alisa Parmer M</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+
+                                        <p class="card-product-name">
+                                            The Ultimate Moisturizing Pack!!!
+                                        </p>
+                                        <p class="card-content-text">
+                                            This is my ultimate favorite product made by 54 Thrones.
+                                            The barrier repair cloud cream is a moisturizing body
+                                            love. Be wise with it a little goes a long way and
+                                            follow the instructions rubbing it all the way into your
+                                            skin. It is a smooth lather over the skin and you can
+                                            feel your skin being replenished as you lather it on.
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img2.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>SC</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Sydney C</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">Amazing!</p>
+                                        <p class="card-content-text">
+                                            I can't believe how amazing this body wash is! I have
+                                            dry skin and in one use, my skin is soft & hydrated,
+                                            that glow!- thank you Shea Butter! I love to use a wash
+                                            mitt with this body wash. Also, I love honey scent too!
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>AM</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Alisa Parmer M</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">
+                                            The Ultimate Moisturizing Pack!!!
+                                        </p>
+                                        <p class="card-content-text">
+                                            This is my ultimate favorite product made by 54 Thrones.
+                                            The barrier repair cloud cream is a moisturizing body
+                                            love. Be wise with it a little goes a long way and
+                                            follow the instructions rubbing it all the way into your
+                                            skin. It is a smooth lather over the skin and you can
+                                            feel your skin being replenished as you lather it on.
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img4.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>SC</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Sydney C</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">Amazing!</p>
+                                        <p class="card-content-text">
+                                            I can't believe how amazing this body wash is! I have
+                                            dry skin and in one use, my skin is soft & hydrated,
+                                            that glow!- thank you Shea Butter! I love to use a wash
+                                            mitt with this body wash. Also, I love honey scent too!
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <div class="card-body custom_card">
+                                    <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>AM</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Alisa Parmer M</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">
+                                            The Ultimate Moisturizing Pack!!!
+                                        </p>
+                                        <p class="card-content-text">
+                                            This is my ultimate favorite product made by 54 Thrones.
+                                            The barrier repair cloud cream is a moisturizing body
+                                            love. Be wise with it a little goes a long way and
+                                            follow the instructions rubbing it all the way into your
+                                            skin. It is a smooth lather over the skin and you can
+                                            feel your skin being replenished as you lather it on.
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img2.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>SC</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Sydney C</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">Amazing!</p>
+                                        <p class="card-content-text">
+                                            I can't believe how amazing this body wash is! I have
+                                            dry skin and in one use, my skin is soft & hydrated,
+                                            that glow!- thank you Shea Butter! I love to use a wash
+                                            mitt with this body wash. Also, I love honey scent too!
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>AM</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Alisa Parmer M</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">
+                                            The Ultimate Moisturizing Pack!!!
+                                        </p>
+                                        <p class="card-content-text">
+                                            This is my ultimate favorite product made by 54 Thrones.
+                                            The barrier repair cloud cream is a moisturizing body
+                                            love. Be wise with it a little goes a long way and
+                                            follow the instructions rubbing it all the way into your
+                                            skin. It is a smooth lather over the skin and you can
+                                            feel your skin being replenished as you lather it on.
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img4.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>SC</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Sydney C</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">Amazing!</p>
+                                        <p class="card-content-text">
+                                            I can't believe how amazing this body wash is! I have
+                                            dry skin and in one use, my skin is soft & hydrated,
+                                            that glow!- thank you Shea Butter! I love to use a wash
+                                            mitt with this body wash. Also, I love honey scent too!
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <div class="card-body custom_card">
+                                    <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>AM</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Alisa Parmer M</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">
+                                            The Ultimate Moisturizing Pack!!!
+                                        </p>
+                                        <p class="card-content-text">
+                                            This is my ultimate favorite product made by 54 Thrones.
+                                            The barrier repair cloud cream is a moisturizing body
+                                            love. Be wise with it a little goes a long way and
+                                            follow the instructions rubbing it all the way into your
+                                            skin. It is a smooth lather over the skin and you can
+                                            feel your skin being replenished as you lather it on.
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img2.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>SC</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Sydney C</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">Amazing!</p>
+                                        <p class="card-content-text">
+                                            I can't believe how amazing this body wash is! I have
+                                            dry skin and in one use, my skin is soft & hydrated,
+                                            that glow!- thank you Shea Butter! I love to use a wash
+                                            mitt with this body wash. Also, I love honey scent too!
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>AM</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Alisa Parmer M</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">
+                                            The Ultimate Moisturizing Pack!!!
+                                        </p>
+                                        <p class="card-content-text">
+                                            This is my ultimate favorite product made by 54 Thrones.
+                                            The barrier repair cloud cream is a moisturizing body
+                                            love. Be wise with it a little goes a long way and
+                                            follow the instructions rubbing it all the way into your
+                                            skin. It is a smooth lather over the skin and you can
+                                            feel your skin being replenished as you lather it on.
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <p class="mb-0">
+                                    <img src="./images/rev-img4.png" class="img-fluid" alt="product" />
+                                </p>
+                                <div class="card-body custom_card">
+                                    <div class="card-footer-content rev-conteny-wrap">
+                                        <div class="card-name-wrap">
+                                            <div class="short-name-wrap">
+                                                <p>SC</p>
+                                            </div>
+                                            <div class="card-name-right">
+                                                <p class="rev-name">Sydney C</p>
+                                                <p class="verify-text">
+                                                    Verified Buyer
+                                                    <span><img src="./images/verified.png" class="img-fluid"
+                                                            alt="product" /></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                                alt="product" />
+                                            <span class="ago-text">4 months ago</span>
+                                        </p>
+
+                                        <p class="card-product-name">Amazing!</p>
+                                        <p class="card-content-text">
+                                            I can't believe how amazing this body wash is! I have
+                                            dry skin and in one use, my skin is soft & hydrated,
+                                            that glow!- thank you Shea Butter! I love to use a wash
+                                            mitt with this body wash. Also, I love honey scent too!
+                                        </p>
+                                    </div>
+                                    <p class="ps-3">
+                                        <a href="#" class="card-read-more">READ MORE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mob-rev-sec py-5">
+        <div class="container-fluid">
+            <h2 class="our-seller-heading text-center m-0 py-4">
+                Customer<span class="inner-heading"> reviews</span>
+            </h2>
+            <div class="row row-gap-4">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body custom_card">
+                            <img src="./images/rev-img1.png" class="img-fluid" alt="product" />
+                            <div class="card-footer-content rev-conteny-wrap">
+                                <div class="card-name-wrap">
+                                    <div class="short-name-wrap">
+                                        <p>AM</p>
+                                    </div>
+                                    <div class="card-name-right">
+                                        <p class="rev-name">Alisa Parmer&nbsp;M</p>
+                                        <p class="verify-text">
+                                            Verified Buyer
+                                            <span><img src="./images/verified.png" class="img-fluid"
+                                                    alt="product" /></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                        alt="product" />
+                                    <span class="ago-text">4 months ago</span>
+                                </p>
+
+                                <p class="card-product-name">
+                                    The Ultimate Moisturizing Pack!!!
+                                </p>
+                                <p class="card-content-text">
+                                    This is my ultimate favorite product made by 54 Thrones. The
+                                    barrier repair cloud cream is a moisturizing body love. Be
+                                    wise with it a little goes a long way and follow the
+                                    instructions rubbing it all the way into your skin. It is a
+                                    smooth lather over the skin and you can feel your skin being
+                                    replenished as you lather it on.
+                                </p>
+                            </div>
+                            <p class="ps-3">
+                                <a href="#" class="card-read-more" tabindex="0">READ MORE</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card">
+                        <p class="mb-0">
+                            <img src="./images/rev-img2.png" class="img-fluid" alt="product" />
+                        </p>
+                        <div class="card-body custom_card">
+                            <div class="card-footer-content rev-conteny-wrap">
+                                <div class="card-name-wrap">
+                                    <div class="short-name-wrap">
+                                        <p>SC</p>
+                                    </div>
+                                    <div class="card-name-right">
+                                        <p class="rev-name">Sydney&nbsp;C</p>
+                                        <p class="verify-text">
+                                            Verified Buyer
+                                            <span><img src="./images/verified.png" class="img-fluid"
+                                                    alt="product" /></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                        alt="product" />
+                                    <span class="ago-text">4 months ago</span>
+                                </p>
+
+                                <p class="card-product-name">Amazing!</p>
+                                <p class="card-content-text">
+                                    I can't believe how amazing this body wash is! I have dry
+                                    skin and in one use, my skin is soft &amp; hydrated, that
+                                    glow!- thank you Shea Butter! I love to use a wash mitt with
+                                    this body wash. Also, I love honey scent too!
+                                </p>
+                            </div>
+                            <p class="ps-3">
+                                <a href="#" class="card-read-more" tabindex="0">READ MORE</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card">
+                        <p class="mb-0">
+                            <img src="./images/rev-img4.png" class="img-fluid" alt="product" />
+                        </p>
+                        <div class="card-body custom_card">
+                            <div class="card-footer-content rev-conteny-wrap">
+                                <div class="card-name-wrap">
+                                    <div class="short-name-wrap">
+                                        <p>SC</p>
+                                    </div>
+                                    <div class="card-name-right">
+                                        <p class="rev-name">Sydney&nbsp;C</p>
+                                        <p class="verify-text">
+                                            Verified Buyer
+                                            <span><img src="./images/verified.png" class="img-fluid"
+                                                    alt="product" /></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="time-ago-text"><img src="./images/stars.png" class="img-fluid my-2"
+                                        alt="product" />
+                                    <span class="ago-text">4 months ago</span>
+                                </p>
+
+                                <p class="card-product-name">Amazing!</p>
+                                <p class="card-content-text">
+                                    I can't believe how amazing this body wash is! I have dry
+                                    skin and in one use, my skin is soft &amp; hydrated, that
+                                    glow!- thank you Shea Butter! I love to use a wash mitt with
+                                    this body wash. Also, I love honey scent too!
+                                </p>
+                            </div>
+                            <p class="ps-3">
+                                <a href="#" class="card-read-more" tabindex="0">READ MORE</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="pt-5 text-center mb-0 pb-4">
+                    <a href="#" class="learn-btn">SHOW MORE</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-5 product-footer">
+        <div class="footer-top">
+            <img src="./images/top.png" alt="img" class="img-fluid img-full" />
+        </div>
+        <div class="footer-content">
+            <div class="container-fluid">
+                <div class="lets-touch-wrap">
+                    <p class="lets-heading">
+                        Let’s <span class="inner-content">stay in touch!</span>
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-10 col-md-9 d-flex">
+                            <input type="email" name="email" id="" placeholder="E-mail*" class="email-box" />
+                        </div>
+                        <div class="col-lg-2 col-md-3">
+                            <p class="m-0"><a href="#" class="sign-up-btn">SIGN UP</a></p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/footer-logo.png" alt="img" class="img-fluid py-5 img-full" />
+                <p class="footer-text">Follow us @54thrones —everywhere!</p>
+
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <img src="./images/frame1.png" alt="img" class="img-fluid img-full" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <img src="./images/frame2.png" alt="img" class="img-fluid img-full" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <img src="./images/frame3.png" alt="img" class="img-fluid img-full" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <img src="./images/frame4.png" alt="img" class="img-fluid img-full" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <img src="./images/frame5.png" alt="img" class="img-fluid img-full" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <img src="./images/frame6.png" alt="img" class="img-fluid img-full" />
+                    </div>
+                </div>
+
+                <div class="row py-5 row-gap-sm">
+                    <div class="col-lg-6 col-sm-6 sm-order-3 col-rev-sm">
+                        <p class="footer-menu">54 THRONES <br />© 2024 COPYRIGHT</p>
+                        <img src="./images/footer-icon.png" alt="img" class="img-fluid footer-icon" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-1">
+                        <p class="footer-title">Menu</p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Shop</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">About</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Beauty Rituals</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Rewards</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Ambassador Program</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Contact</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-2">
+                        <p class="footer-title">Support</p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Privacy Policy</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Cookies Policy</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Terms & Conditions</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Shipping & Return Policy</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Accessibility Statement</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-4">
+                        <p class="footer-title">Social</p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Youtube</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Facebook</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">Instagram</a>
+                        </p>
+                        <p class="footer-menu">
+                            <a class="footer-menu-link" href="#">X</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="img-content-sec pt-5 sticky-sec mt-4">
+        <div class="container">
+            <h2 class="meet-heading text-center py-5">
+                Meet our <span class="inner-heading">founder</span>
+            </h2>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <img src="./images/Christina-img.png" alt="img3" class="img-fluid" />
+                </div>
+                <div class="col-lg-6">
+                    <div class="Christina-content">
+                        <h2>Christina Tegbe</h2>
+                        <p class="two-color-content">
+                            A southern-American childhood rooted with the cultural essence
+                            of Nigeria, Christina grew up experiencing
+                            <span class="inner-content">the true</span> and
+                            <span class="inner-content">sacred beauty of Africa.</span>
+                        </p>
+
+                        <p class="Christina-inner-text">
+                            Empowered by her Nigerian aunt who would indulge her with tubs
+                            of shea butter sent via Nigeria and moved by the ingenuity and
+                            innovation across the motherland, she answered the call to share
+                            the heart and soul of Africa with the world. In 2015, she left a
+                            career in corporate consulting to launch 54 Thrones.
+                        </p>
+                        <p class="Christina-inner-text">
+                            With 54 Thrones, Christina aspires to spread the message of the
+                            African origin of clean beauty. Determined to share the beauty
+                            and authenticity of an Africa often not seen, she partners with
+                            passionate artisans who handcraft the rich ingredients that make
+                            up the brand.
+                        </p>
+                        <p class="pt-3"><a href="#" class="learn-btn">LEARN MORE</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".my-slider").slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                speed: 300,
+                infinite: true,
+                autoplaySpeed: 10000,
+                autoplay: false,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3,
+                        },
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+            });
+        });
+    </script>
+    <script src="./script.js"></script>
+    <script>
+        var splide = new Splide('#main-slider', {
+            pagination: false,
+        });
+
+
+        var thumbnails = document.getElementsByClassName('thumbnail');
+        var current;
+
+
+        for (var i = 0; i < thumbnails.length; i++) {
+            initThumbnail(thumbnails[i], i);
+        }
+
+
+        function initThumbnail(thumbnail, index) {
+            thumbnail.addEventListener('click', function () {
+                splide.go(index);
+            });
+        }
+
+
+        splide.on('mounted move', function () {
+            var thumbnail = thumbnails[splide.index];
+
+
+            if (thumbnail) {
+                if (current) {
+                    current.classList.remove('is-active');
+                }
+
+
+                thumbnail.classList.add('is-active');
+                current = thumbnail;
+            }
+        });
+
+
+        splide.mount();
+
+    </script>
+</body>
+
+</html>
