@@ -1,0 +1,87 @@
+.banner-text {
+    top: 60%;
+    width: 100%;
+    z-index: 1;
+    max-width: 86%;
+}
+.banner-text h1{
+    font-size: 120px;
+    color: #FDFBFF;
+    font-family: "Poppins-Regular";
+}
+.banner-text .inner-heading {
+    font-size: 134px;
+    font-family: "Playfair-Display-italic";
+}
+.we-look-heading{
+    font-size: 52px;
+    color: #AD543B;
+}
+.we-look-heading .inner-heading{
+    font-size: 54px;
+    font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.we-look-content p{
+    color: #AD543B;
+    font-size: 20px;
+}
+.fw-500{
+    font-family: "Poppins-Medium";
+}
+.how-does-heading{
+    font-size: 52px;
+    color: #AD543B;
+}
+.how-does-heading .inner-heading{
+    font-size: 54px;
+    font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.african-beauty-orig-sec{
+    background: url('../images/african-bg.png') no-repeat;
+    background-size: cover;
+    background-color: #F6F3FA;
+    padding: 120px 0;
+}
+.african-beauty-heading{
+    font-size: 90px;
+    color: #AD543B;
+}
+.african-beauty-heading .inner-heading{
+    font-size: 96px;
+    font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px){
+    .banner-text .inner-heading {
+        font-size: 36px;
+    }
+    .banner-text h1 {
+        font-size: 31px;
+    }
+    .we-look-heading {
+        font-size: 31px;
+    }
+    .we-look-heading .inner-heading {
+        font-size: 36px;
+    }
+    .african-beauty-heading {
+        font-size: 31px;
+    }
+    .african-beauty-heading .inner-heading {
+        font-size: 36px;
+    }
+    .how-does-heading {
+        font-size: 31px;
+    }
+    .how-does-heading .inner-heading {
+        font-size: 36px;
+    }
+}

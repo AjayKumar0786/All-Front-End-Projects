@@ -1,0 +1,64 @@
+body{
+    font-family: "Poppins-Regular";
+    font-weight: 500;
+}
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('./fonts/Poppins-Regular.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url('./fonts/Poppins-Medium.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Playfair-Display-italic';
+	src:url('./fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
+
+	
+}
+.stroy_section{
+    background-color: #F6F3FA;
+}
+
+.shop_breadcrum .Shop_text{
+    color: #AD543B;
+    font-weight: 500;
+}
+.shop_breadcrum .home_text{
+    color: #AD543B;
+    opacity: 0.8;
+    font-weight: 500;
+}
+.product_heading{
+    text-align: center;
+    color: #AD543B;
+}
+.product_heading .main_heading{
+    font-size: 90px;
+
+}
+.story_list{
+    list-style: none;
+    display: flex;
+   gap: 20px;
+    
+}
+
+.story_list .story_content{
+ 
+    border: 3px solid #B39EEF;
+    border-radius: 100%;
+    display: inline-block;
+    width: 148px;
+    
+   
+}
+.story_list .first_story{
+
+   color: #AD543B;   
+}
+
