@@ -1,0 +1,18 @@
+form.form-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+form.form-search input {
+  border-radius: 0;
+}
+
+form.form-search button {
+  border-radius: 0;
+  width: 85px;
+}
+
+form.form-search>div {
+  width: calc(100% - 85px);
+}

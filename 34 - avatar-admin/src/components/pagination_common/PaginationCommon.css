@@ -1,0 +1,28 @@
+.pagination-container select {
+  width: 100px;
+}
+
+.pagination-container .pagination {
+  margin-bottom: 0;
+}
+
+.pagination .page-link {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 575px) {
+  .pagination-container {
+    display: block !important;
+  }
+
+  .pagination-container .pagination {
+    width: 100%;
+  }
+
+  .pagination-container select {
+    margin-top: 10px;
+  }
+}

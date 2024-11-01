@@ -1,0 +1,34 @@
+.experience-details table {
+  table-layout: fixed;
+}
+
+.experience-details table.table.table-hover th,
+.experience-details table.table.table-hover td {
+  background-color: var(--color-custom-light) !important;
+}
+
+@media (max-width: 767px) {
+  .experience-details .col-md-4 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .experience-details table,
+  .experience-details tbody,
+  .experience-details tr {
+    display: block;
+  }
+
+  .experience-details th,
+  .experience-details td {
+    width: 100%;
+    display: block;
+  }
+
+  .experience-details th {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+}

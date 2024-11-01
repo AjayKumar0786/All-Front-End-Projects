@@ -1,0 +1,41 @@
+.request {
+  background-color: var(--color-custom-light);
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+.request>* {
+  padding: 0 10px;
+}
+
+.r-name {
+  flex: 1;
+}
+
+.r-email {
+  width: 300px;
+}
+
+.r-actions {
+  width: 160px;
+}
+
+.r-actions button:first-child {
+  margin-right: 5px;
+}
+
+.r-actions button.btn-success {
+  color: #fff !important
+}
+
+@media (max-width: 767px) {
+  .request {
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .request>* {
+    padding: 0;
+  }
+}
