@@ -1,0 +1,10 @@
+.Bread_cum{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
+.breadcrum_arrow{
+    width: 7px;
+    margin-top: -1px;
+}

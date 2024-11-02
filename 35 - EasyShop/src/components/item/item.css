@@ -1,0 +1,41 @@
+.main_item_box{
+   box-shadow: 0px 0px 5px gainsboro;
+   border-radius: 10px  ;
+   font-family: 'Poppins', sans-serif;
+   font-size: 12px;
+}
+.main_item_box .img img{
+    border-radius: 10px 10px 0px 0px;
+}
+.main_item_box .item_name{
+    padding: 10px;
+    
+}
+.main_item_box .item_price{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.main_item_box .old_price{
+    color: gray;
+    text-decoration: line-through;
+}
+.main_item_box .new_price{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+}
+.items_image{
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    padding: 5px;
+}
+.main_item_box{
+    overflow: hidden;
+}
+.items_image img{
+    transition: all 0.5s;
+    
+}
+.items_image img:hover{
+transform: scale(1.1);
+}

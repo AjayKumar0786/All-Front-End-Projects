@@ -1,0 +1,49 @@
+.main-section{
+    background:pink ;
+}
+.right_section .hero_image{
+ width: 63%;
+}
+.new_collection .hand_icon{
+    width: 81px;
+}
+.left_section h2{
+    font-size: 26px;
+}
+.new_collection p{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 900;
+font-size: 70px;
+margin: 0px;
+line-height: 76px;
+color: black;
+font-weight: 500;
+}
+.latest_collection_btn{
+    background-color: #ff4141;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: white;
+    margin-top:40px ;
+
+}
+.carousel-item{
+    height: 80vh;
+  
+}
+.carousel-item img{
+
+    height: 80vh;
+    object-fit: cover;
+}
+/* mediaQueryformain */
+@media screen and (min-width:300px) and (max-width:551px) {
+    .carousel-item img {
+        height: 24vh;
+        object-fit: cover;
+    }
+    .carousel-inner{
+        height: 24vh;
+    }
+}

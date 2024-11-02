@@ -1,0 +1,35 @@
+.footer_social_link li{
+  background-color: rgb(204, 198, 198);
+width: 40px;
+height: 40px;
+text-align: center;
+border-radius: 100%;
+line-height: 40px;
+font-size: 20px;
+cursor: pointer;
+}
+.footer_social_link li:hover{
+    background-color: aliceblue;
+}
+.footer_social_link{
+  gap: 30px;
+}
+.footer_links{
+  gap: 40px;
+}
+@media screen and (min-width:300px) and (max-width:551px) {
+  .footer_logo img{
+    width: 60% !important;
+    
+}
+.footer_social_link{
+  gap: 15px;
+  font-size: 12px;
+}
+.footer_links{
+  gap: 15px;
+  font-size: 12px;
+}
+
+
+}

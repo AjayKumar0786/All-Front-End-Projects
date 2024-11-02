@@ -1,0 +1,66 @@
+.offer_banner{
+    position: relative;
+}
+.click_me_btn{
+    background-color: rgb(224, 95, 95);
+    border: none;
+    border-radius: 30px;
+    padding:10px 35px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    transition: 0.5s all;
+}
+.click_me_btn::after{
+    content: '»';
+    position: relative;
+    opacity: 0;  
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+
+}
+
+.click_me_btn:hover{
+    background-color: rgb(244, 103, 103);
+}
+.click_me_btn:hover:after{
+    opacity: 1;
+    right: -10px;
+}
+.offer_left p{
+    margin: 0px;
+    font-size: 70px;
+    line-height: 80px;
+    margin-left: 40px;
+}
+.offer_left h2{
+    font-size: 21px;
+    margin-left: 40px
+}
+.offer_banner{
+    margin-top: 50px;
+}
+@media screen and (min-width:300px) and (max-width:551px) {
+    .offer_banner {
+        margin-top: 40px;
+    }
+    .click_me_btn {
+        background-color: rgb(224, 95, 95);
+        border: none;
+        border-radius: 30px;
+        padding: 3px 15px;
+        font-size: 13px;
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+        transition: 0.5s all;
+    }
+    
+}

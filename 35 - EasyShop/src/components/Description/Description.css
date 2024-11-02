@@ -1,0 +1,16 @@
+.description_nav_box{
+    border: 1px solid grey;
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 25px;
+}
+.description_content{
+    border: 1px solid grey;
+    font-size: 13px;
+    padding: 30px 20px;
+
+}
+.description_box{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

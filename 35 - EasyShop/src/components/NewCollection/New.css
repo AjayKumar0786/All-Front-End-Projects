@@ -1,0 +1,30 @@
+.new_collections_Container{
+    margin-top: 50px;
+}
+.collection_text{
+    font-family: Robot-black;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.collection_text::before {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    margin-top: 5px;
+}
+@media screen and (min-width:300px) and (max-width:551px) {
+    .new_collections_Container{
+        margin-top: 30px;
+    }
+    .collection_text{
+        font-family: Robot-black;
+        margin-bottom: 5px;
+    }
+}
