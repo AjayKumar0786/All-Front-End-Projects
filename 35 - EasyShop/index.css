@@ -1,0 +1,16 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+body{
+    margin: 0px;
+  font-family: 'poppins',sans-serif;
+    
+}
+@font-face {
+    font-family:Robot-Black;
+    src: url('./src/Roboto/RobotoSlab-Black.ttf');
+
+  }
+  @font-face {
+    font-family:Robot-extralite;
+    src: url('./src/Roboto/RobotoSlab-Regular.ttf');
+    
+  }
