@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home-Owner-3</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<section class="section-bg-1">
+<div class="container">
+<div class="row">
+<div class="progress-handler">
+  <div class="progress">
+    <div class="progress-bar custom-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%"> 60% </div>
+  </div>
+</div>
+<div class="border">
+  <h3 class="text-center">Property Information</h3>
+  <div class="row  ">
+    <div class="col-lg-6 col-md-6 mt-3 ">
+      <h5 class="text-primary">Is the property located: within 5 miles of a fire station? </h5>
+      <p class="form-check form-check-inline text-light">
+        <input  type="radio" name="firestation" id="inlineRadio01" value="option1">
+        <label  for="inlineRadio01">Yes</label>
+      </p>
+      <p class="form-check form-check-inline text-light">
+        <input class="" type="radio" name="firestation" id="inlineRadio02" value="option2">
+        <label class="form-check-label" for="inlineRadio02">No</label>
+      </p>
+    </div>
+    <div class="col-lg-6 col-md-6 mt-3">
+      <h5 class="text-primary">Within 1,000 feet of a fire hydrant? </h5>
+      <p class="form-check form-check-inline text-light">
+        <input  type="radio" name="firehydrant" id="inlineRadio1" value="option1">
+        <label  for="inlineRadio1">Yes</label>
+      </p>
+      <p class="form-check form-check-inline text-light">
+        <input class="" type="radio" name="firehydrant" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">No</label>
+      </p>
+    </div>
+    <div class="col-lg-6 col-md-6 mt-3">
+      <h5 class="text-primary">Construction:</h5>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineRadio5" value="option1" name="Construction">
+        <label for="inlineRadio5">Brick or Stone </label>
+      </p>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineRadio6" value="option2" name="Construction"  >
+        <label for="inlineRadio6">Frame </label>
+      </p>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineradio7" value="option2" name="Construction">
+        <label  for="inlineradio7">Masonry Non-Combustible </label>
+      </p>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineradio0007" value="option2" name="Construction">
+        <label  for="inlineradio0007">Modified Fire Resistive </label>
+      </p>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineradio8" value="option2 " name="Construction">
+        <label  for="inlineradio8">Modified Fire Resistive </label>
+      </p>
+    </div>
+    <div class="col-lg-6 col-md-6 mt-3">
+      <h5 class="text-primary">Occupancy: </h5>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineradio9" value="option2" name="Occupancy">
+        <label  for="inlineradio9">Primary </label>
+      </p>
+      <p class="form-check form-check-inline chechbox text-light">
+        <input type="radio" id="inlineradio10" value="option2" name="Occupancy">
+        <label for="inlineradio10">Secondary </label>
+      </p>
+      <p class="form-check form-check-inline chechbox text-light" >
+        <input type="radio" id="inlineradio11" value="option2" name="Occupancy">
+        <label  for="inlineradio11">Seasonal Vacation </label>
+      </p>
+    </div>
+    <div class="col-lg-4 col-md-4 mt-3">
+    
+        <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+          <option selected="">Number of Stories</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="3">4</option>
+          <option value="3">5</option>
+          <option value="3">6</option>
+          <option value="3">7</option>
+          <option value="3">8</option>
+          <option value="3">9</option>
+          <option value="3">10</option>
+        </select>
+
+    </div>
+    <div class="col-lg-4 col-md-4 mt-3">
+
+        <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+          <option selected="">Number of Families:</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="3">4</option>
+          <option value="3">5</option>
+          <option value="3">6</option>
+          <option value="3">7</option>
+          <option value="3">8</option>
+          <option value="3">9</option>
+          <option value="3">10</option>
+        </select>
+   
+    </div>
+	    <div class="col-lg-4 col-md-4">
+      <div class="select_condition mt-3">
+        <select class="form-select form-select-lg "  aria-label=".form-select-lg example" >
+          <option selected>In what year were the following updated: </option>
+          <option value="1">Roof</option>
+          <option value="2">Plumbing</option>
+          <option value="3">Electricial</option>
+          <option value="4">Heating</option>
+        </select>
+      </div>
+      <div class="select_box" style="display: none;">
+        <input type="text" class="form-control form-control-lg calender mt-3 " placeholder="Year Built" onfocus="(this.type='date')">
+      </div>
+    </div>
+	
+	  
+    <div class="col-lg-4 col-md-4">
+      <div class="mt-3">
+        <input type="text" class="form-control form-control-lg  " placeholder="Total Property Square Footage:">
+      </div>
+    </div>
+	  
+    <div class="col-lg-4 col-md-4 mt-3 ">
+      <h5 class="text-primary">Pool? </h5>
+      <p class="form-check form-check-inline text-light">
+        <input  type="radio" name="Pool" id="inlineRadio001" value="option1">
+        <label  for="inlineRadio001">Yes</label>
+      </p>
+      <p class="form-check form-check-inline text-light">
+        <input class="" type="radio" name="Pool" id="inlineRadio002" value="option2">
+        <label class="form-check-label" for="inlineRadio002">No</label>
+      </p>
+    </div>
+    <div class="col-lg-12 text-center">
+      <div class="mt-3">
+        <a href="./Home-owner-2.html">
+          <button type="button" class="btn back-btn bg-light "> Back </button>
+          </a> <a href="./Home-owner-4.html">
+          <button type="button" class="btn next-btn ms-3 text-light bg-primary "> Next </button>
+          </a> 
+      </div>
+  </div>
+  </div>
+</div>
+</section>
+<section class="bg-red">
+  <div class="container">
+    <div class="row ">
+      <ul class="d-flex justify-content-center">
+        <li><a href=""><img src="./image/facebook.png" alt="" class="img-fluid me-3"></a></li>
+        <li><a href=""><img src="./image/instagram.png" alt=""class="img-fluid me-3"></a></li>
+        <li><a href=""><img src="./image/Linkden.png" alt=""class="img-fluid me-3"></a></li>
+        <li><a href=""><img src="./image/twitter.png" alt=""class="img-fluid me-3"></a></li>
+        <li><a href=""><img src="./image/google+icon.png" alt=""class="img-fluid me-3"></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<script>
+  jQuery('.select_condition select').change(function() {
+      //Use $option (with the "$") to see that the variable is a jQuery object
+      var $option = jQuery(this).find('option:selected');
+      //Added with the EDIT
+      var value = $option.val();//to get content of "value" attrib
+      var text = $option.text();//to get <option>Text</option> content
+      console.log(text);
+      if(text == "In what year were the following updated: "){
+          jQuery(".select_box").hide();
+      }else{
+           jQuery(".select_box").show();
+      }
+  });
+  </script>
+</body>
+</html>
