@@ -1,0 +1,2413 @@
+html {
+  scroll-behavior: smooth;
+}
+body{cursor: url("../images/curser-icon.png"), auto;	}
+:root {
+  --Abrila-font: 'AbrilFatface-Regular';
+  --Myridpro-font: 'MyriadPro-Regular_0';
+  --OpenSans-font: 'OpenSans-Bold';
+  --Opensans-italic: 'OpenSans-BoldItalic';
+  --Helvetica: 'Helvetica';
+  --color-background: #31037d;
+  --axis-x: 1px;
+  --axis-y: 8rem;
+  --delay: 5;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-orange: #d49c3d;
+  --color-red: #d14b3d;
+  --color-violet: #cf52eb;
+  --color-blue: #44a3f7;
+  --color-green: #5acb3c;
+  --color-yellow: #debf40;
+  --color-foreground: var(--color-white);
+  --font-name: Righteous;
+}
+/* section-1-csss */
+.section_1_bg .container {
+  padding-top:47px;
+  padding-bottom: 123px;
+}
+.section_1_bg,.five_bottles-section {
+  background: url('../images/BG.jpg') no-repeat top center;
+  background-size: cover;
+  position: relative;
+	height: 100vh;
+}
+.five_bottles-section{height:auto;}
+.lone-wolf {
+  /* counter-reset: rainbow; */
+  position: absolute;
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  z-index: 1;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.lone-wolf-layer {
+  font-size: 315px;
+  letter-spacing: 66px;
+  font-weight: bold;
+  transform: translate(-46%, -1%);
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #7a7a7a;
+  mix-blend-mode: darken;
+  counter-increment: rainbow;
+  /* text-shadow: -1px -1px 0 var(--color-black), 1px -1px 0 var(--color-black), -1px 1px 0 var(--color-black), 1px 1px 0 var(--color-black), 4px 4px 0 rgba(0, 0, 0, .2); */
+   animation: rainbow 3.5s ease-in-out infinite;
+  line-height: 437px; 
+}
+.lone-wolf-layer:nth-child(1) {
+  animation-delay: calc(1 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 1);
+  z-index: -10;
+}
+.lone-wolf-layer:nth-child(2) {
+  animation-delay: calc(2 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 2);
+  z-index: -20;
+}
+.lone-wolf-layer:nth-child(3) {
+  animation-delay: calc(3 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 3);
+  z-index: -30;
+}
+.lone-wolf-layer:nth-child(4) {
+  animation-delay: calc(4 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 4);
+  z-index: -40;
+}
+.lone-wolf-layer:nth-child(5) {
+  animation-delay: calc(5 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 5);
+  z-index: -50;
+}
+.lone-wolf-layer:nth-child(6) {
+  animation-delay: calc(6 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 6);
+  z-index: -60;
+}
+.lone-wolf-layer:nth-child(7) {
+  animation-delay: calc(7 / var(--delay) * 1s);
+  left: calc(var(--axis-x) * 7);
+  z-index: -70;
+}
+.lone-wolf-layer:not(:first-child) {
+  position: absolute;
+  top: 0;
+}
+@keyframes rainbow {
+  0%, 100% {
+    transform: translatey(var(--axis-y));
+  }
+  50% {
+    transform: translatey(calc(var(--axis-y) * -1));
+  }
+}
+/* .section-before::before {
+	content: 'LONE';
+    position: absolute;
+    font-size: 315px;
+    letter-spacing: 66px;
+    font-weight: bold;
+   left: 54.3%;
+    transform: translate(-50%, 0);
+    bottom: 42%;
+	color: rgba(255,255,255,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    mix-blend-mode: darken;
+}
+.section-before::after {
+    content: 'WOLF';
+    position: absolute;
+    font-size: 315px;
+    letter-spacing:76px;
+    font-weight: bold;
+   	color: rgba(255,255,255,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    mix-blend-mode: darken;
+        left: 53%;
+	transform:translate(-50%, 0);
+    bottom: -12%;
+} */
+.wolf svg{max-width:90%;}
+.lone_wolf {
+      position: absolute;
+    z-index: 2;
+    top: 50px;
+    width: 100%;
+}
+.lone-wolf-logo {
+  text-align: center;
+}
+.Age_is_just_number h1 {
+  font-family: var(--OpenSans-font);
+  margin-top: 0px;
+}
+.Age_is_just_number P {
+  font-size: 30px;
+  font-family: var(--Myridpro-font);
+  margin: 15px auto 10px;
+}
+.Number-form .custom_form {
+  background-color: black;
+  color: white;
+  cursor: auto;
+  padding: 15px 23px;
+  border-radius: 0;
+  font-family: var(--OpenSans-font);
+}
+.Number-form .custom_form:focus {
+  outline: none;
+  box-shadow: none;
+}
+.Number-form .input_custom_form {
+  padding: 15px 23px;
+  color: black;
+  border-radius: 0;
+  font-family: var(--OpenSans-font);
+  border: 1.5px solid black;
+}
+.btn-dark:focus{
+  box-shadow: none!important;
+}
+.Number-form .custom_enter_button {
+  padding: 15.5px;
+  margin-left: -20px;
+  border-radius: 0;
+  display: block;
+  font-family: var(--OpenSans-font);
+  width: 70%;
+  text-align: left;
+}
+.Number-form .input_custom_form:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* section-1-css-end */
+/* navbar-section-css */
+.nav_bg {
+  background: url('../images/logo-BG.jpg') no-repeat center;
+  background-size: cover;
+}
+.container .nav {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+  height: 60px;
+  z-index: 5;
+  overflow: hidden;
+}
+/************** .nav .toggle  *******************/
+.container .nav ul.toggle {
+  position: relative;
+  float: left;
+  height: 47px;
+  width: 70px;
+  background: rgba(0, 0, 0, .5);
+  z-index: 2;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.container .nav ul.toggle.active {
+  background: #070404;
+}
+.container .nav ul.toggle li {
+  list-style: none;
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  height: 4px;
+  background: #fff;
+  transform: translate(0, -50%);
+  transition: .9s;
+}
+.container .nav ul.toggle li:nth-of-type(1) {
+  top: 31%;
+}
+.container .nav ul.toggle li:nth-of-type(2) {
+  top: 52%;
+}
+.container .nav ul.toggle li:nth-of-type(3) {
+  top: 75%;
+}
+.container .nav ul.toggle li:nth-of-type(4) {
+  top: 10%;
+}
+
+.container .nav ul.toggle.active li:nth-of-type(1) {
+  left: 100%;
+  opacity: 0;
+}
+.container .nav ul.toggle.active li:nth-of-type(2) {
+  left: 100%;
+  opacity: 0;
+}
+.container .nav ul.toggle.active li:nth-of-type(3) {
+  top: 50%;
+  transform: translate(0, -50%) rotate(-45deg);
+}
+.container .nav ul.toggle.active li:nth-of-type(4) {
+  top: 50%;
+  transform: translate(0, -50%) rotate(45deg);
+}
+.container .nav ul.menu {
+  position: relative;
+  float: left;
+  height: 46px;
+  line-height: 50px;
+  background: rgba(0, 0, 0, .5);
+  left: 104%;
+  transition: .9s;
+  z-index: 1;
+}
+.container .nav ul.menu.active {
+  left: 0;
+}
+.container .nav ul.menu li {
+  list-style: none;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+.container .nav ul.menu li a {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container .nav ul.menu li:hover a {
+  background: #0e0c0c;
+}
+/* mobile-nav-section */
+.nav_bg_2 {
+  background: url('../images/logo-BG.jpg') no-repeat top;
+  background-size: cover;
+  height: 72px;
+}
+.nav_bg_2.mobile_nav #navbarNav {
+  background: rgb(46, 46, 46) none repeat scroll 0% 0%;
+  margin: 9px -15px;
+  padding: 0px 20px;
+  position: relative;
+  z-index: 2;
+}
+.mobile_nav {
+  display: none;
+}
+.custom-link {
+  color: white;
+  font-size: 16px;
+}
+.custom-link:hover {
+  color: white;
+}
+.custom_toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: .5s ease-in-out;
+}
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+.middle-bar {
+  margin-top: 0px;
+}
+.poly-text2 .mild_text{
+  
+  font-size: 32px ;
+}
+.mild_text br{
+  display: none;
+}
+/* when navigation is clicked */
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+/* State when the navbar is collapsed */
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+/* Color of 3 lines */
+.navbar-toggler.collapsed .toggler-icon {
+  background: white;
+}
+/* mobile-nav-section-end */
+/* navbar-section-css-end */
+/* you_have_entered-css */
+.you_have_entered {
+  background: url('../images/Banner.jpg') center center no-repeat;
+  background-size: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-attachment:fixed;
+	position: relative;
+}
+p.page_2_bottom_btn.down_btn img,
+.bottom_button {
+  position: relative;
+  z-index: 99;
+}
+
+#strong{
+  display: block ;
+}
+.tabs-section{
+  background: url('../images/section-4-bg.png') no-repeat bottom;
+
+  background-size: cover;
+  padding: 80px 10px;
+
+}
+.tabcontent{
+  display: none;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+.tabs-left h1{
+  color: #4fa4b6;
+  font-family: var(--Abrila-font);
+}
+.tabs-left h2{
+  margin-left: 93px;
+
+  font-size: 2.5rem;
+  font-family: var(--Abrila-font);
+}
+.tabs-item {
+  margin-top: 40px;
+}
+.tabs-item span{
+ font-size: 24px;
+ font-weight: bold;
+ margin-left: 5px;
+
+}
+.tabs-item img{
+  width: 28%;
+}
+.wave-line-bottom{
+  height: 54px !important;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  background-repeat: repeat-x;
+    bottom: -40px;
+    transform: rotate(180deg);
+    z-index: 9;  left:0;
+  right:0;
+}
+.wave-line-up{
+  height: 54px !important;
+  z-index: 11;
+  position: absolute;
+  width: 100%;
+  background-repeat: repeat-x;
+  left:0;
+  right:0;
+  margin-top: -41px !important;z-index: 9;
+}
+
+.down_btn {
+  position: absolute;
+  left: 45%;
+  top: 90px;
+  z-index:99;
+}
+.home_page_button_three{
+  left: 47.5%;
+  top: 17px;
+}
+.home_page_button {
+  position: absolute;
+    left: 47.5%;
+    top: 40px;
+    z-index: 2;
+}
+.lonewolf_btn {
+  left: 48%;
+}
+.you_have_entered h1 {
+  font-family: var(--Abrila-font);
+  color: #fff;
+  text-shadow: 0 6px 10px #000;
+}
+.you_have_entered h3 {
+  color: #fff;
+  font-family: var(--Opensans-italic);
+}
+.you_have_entered h4 {
+  color: #fff;
+  font-family: var(--Myridpro-font);
+  font-size: 32px;
+  margin-top: 60px;
+}
+/* you-have-entered-css-end */
+/* .five_bottles-section */
+/* .five_bottles-section { */
+  /* background: url('../images/unfollow-line-text.png') no-repeat center center; */
+  /* background-attachment: scroll; */
+  /* background-attachment: fixed; */
+	/* position: relative; */
+/* } */
+.dotte{
+  background: url('../images/dotte.png') no-repeat  50% 35%;
+  background-size: 55%;
+
+}
+.bottles_block a.btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 60px;
+    line-height: 40px;
+    margin: 20px auto 0;
+    border: 2px solid #000;
+    border-radius: 30px;
+    line-height: 60px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Opensans-bold);
+  
+
+}
+
+
+.five_bottles_inner {  padding-top: 150px;
+
+position:relative;background: url('../images/line-4.png') no-repeat  center center / contain;
+}
+.five_bottles_inner img{text-align:center; margin:0 auto; display:block;}
+.five_bottles_inner ul li{list-style:none; position:absolute; top:14%; left:47.5%;}
+.five_bottles_inner ul li:nth-child(2) {
+  position: absolute;
+  top: 25%;
+  left: -65px;
+
+}
+.five_bottles_inner ul li:nth-child(3){position:absolute; top:27%; left:auto; right:-63px;}
+.bottles_block  .shadow-b{opacity:0; display:none;}
+.bottles_block  a.btn:hover {background:#000; color:#fff;}
+.bottles_block:hover .shadow-b{opacity:1; display:block;}
+.bottles_block:hover .combo-a{opacity:0; display:none;}
+.bottles_block  figure {
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five_bottles-section h1 {
+  font-family: var(--Abrila-font);
+  padding-top: 55px;
+}
+.five_bottles-section .bootel_img {
+  margin-top: 80px;
+}
+.five_bottles-section h2 {
+  font-family: var(--Myridpro-font);
+  margin-top: 40px;
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+h1.mild_text.strong {
+    color: #ffffff;
+}
+.five_bottles-section h3 {
+  font-family: var(--Opensans-italic);
+  font-size: 48px;
+}
+.five_bottles-section .unfollow_img {
+  margin: 30px 0 50px;
+}
+.five_bottles-section p.down_btn.home_page_button {
+    top: -24px;
+}
+.bottel-gradient{
+  width: 17%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0) -51%, rgba(239,239,239,1) 1%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%) right;
+  position: absolute;
+  background-attachment: fixed;
+  z-index:2;
+  bottom:0px;
+
+  right: 0px;
+
+}
+/* .five_bottle_before::before { */
+/* content: '#UNFOLLOW'; */
+/* position: absolute; */
+/* font-size: 170px; */
+/* font-weight: bold; */
+/* left: 50%; */
+/* top: 23%; */
+/* transform: translate(-50%, 0); */
+/* text-shadow: 1px 1px 0px #000000; */
+/* font-family: var(--Opensans-italic); */
+/* color: rgba(255,255,255,1); */
+/* -webkit-text-stroke-width: 1px; */
+/* -webkit-text-stroke-color: #7a7a7a; */
+/* mix-blend-mode: darken; */
+/* letter-spacing: 26px; */
+/* } */
+.five_bottels {
+  position: relative;
+}
+.canva-controler {
+  position: relative
+}
+div#call_canva {
+  position: absolute;
+  left: 0;
+}
+.custom_width {
+  width: 29% !important;
+}
+.mobile_carousel {
+  display: none;
+  margin-top: 80px;
+}
+.bottel_1 {
+  margin-top: 120px;
+}
+/* slick_slider_css */
+/* Defines the width of the carousel and centers it on the page */
+/* .five_bottles-section-end*/
+/* animated-bottle-section */
+.mild_lagar_Section {
+  background: url('../images/banner-bg.jpg') no-repeat;
+  background-size: cover;
+  /* margin-top: 60px; */
+  padding: 50px 0px;
+	position: relative;
+}
+.animated_bottle img {
+  width: 20%;
+  /* margin-top: 90px; */
+  /* margin-top: 90px; */
+}
+.bottle_one img {
+  transform: rotate(29deg);
+}
+.bottle_three img {
+  transform: rotate(-29deg);
+}
+.mild_lagar_Section h1 {
+  color: #4fa4b6;
+  font-family: var(--Abrila-font);
+  margin-top: 0px;
+}
+.mild_lagar_Section h5 {
+  color: white;
+  font-family: var(--Opensans-italic);
+}
+.know_more_button {
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+/* animated-bottle-css-end */
+/* lone-wolf-brewing-css */
+.lone_wolf_brewing_left h1 {
+  color: #4fa4b6;
+  font-family: var(--Abrila-font);
+}
+.lone_wolf_brewing_left .wave-1 {
+  margin-top: 57px;
+  margin-left: 35px;
+
+}
+.lone_wolf_brewing_left .head-1 {
+  margin-top: 40px;
+  font-family: var(--Myridpro-font);
+}
+.lone_wolf_brewing_left .wave-2 {
+  margin-top: 43px;
+  margin-left: 35px;
+
+}
+.mild_last_Section_right_image #medium-moon{
+  margin-top: 54px;
+}
+@keyframes wave {
+  0% {
+    left: -80px;
+  }
+  100% {
+    left: -30px;
+  }
+}
+.wave-2 {
+  width: 140px;
+  overflow: hidden;
+}
+.wave-2 svg {
+  position: relative;
+  left: -50px;
+  width: 200px;
+  height: 30px;
+  animation: wave 2s linear infinite;
+}
+@keyframes wave {
+  0% {
+    left: -80px;
+  }
+  100% {
+    left: -0px;
+  }
+}
+.wave-1 {
+  width: 140px;
+  overflow: hidden;
+}
+.wave-1 svg {
+  position: relative;
+  left: -50px;
+  width: 200px;
+  height: 30px;
+  animation: wave 2s linear infinite;
+}
+.wave-3 {
+  width: 140px;
+  overflow: hidden;
+}
+.wave-3 svg {
+  position: relative;
+  left: -50px;
+  width: 200px;
+  height: 30px;
+  animation: wave 2s linear infinite;
+}
+.waves {
+  width: 140px;
+  overflow: hidden;
+}
+.waves svg {
+  position: relative;
+  left: -50px;
+  width: 200px;
+  height: 30px;
+  animation: wave 2s linear infinite;
+}
+.lone_wolf_brewing_left .waves {
+  margin-top: 11px;
+}
+.lone_wolf_brewing_left .head-2 {
+  margin-top: 67px;
+  font-family: var(--Myridpro-font);
+}
+.lone_wolf_brewing_left .wave-3 {
+  margin-top: 46px;
+}
+.lone_wolf_brewing_left .head-3 {
+  margin-top: 50px;
+  font-family: var(--Myridpro-font);
+}
+.lone_wolf_brewing_left h4 {
+  font-family: var(--Myridpro-font);
+  margin-top: 50px;
+}
+.lone_wolf_brewing {
+  background: url('../images/section-4-bg.png') no-repeat 19px bottom;
+  background-size: cover;
+  padding: 240px 0px 159px 0px;
+  overflow: hidden;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:before { 
+background: url(../images/beer-top-shape.png) no-repeat top left / contain;
+    width: 100%;
+    content: '';
+    height: 100%;
+    top: -51px;
+    left: -140px;
+    position: absolute;
+    background-size: 50%;
+ }
+.lone_wolf_brewing_container .lone_wolf_brewing_right p img {
+  z-index: 999;
+}
+ .lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+    opacity: 0.9;
+    background: url(../images/beer-bottom-shape.png) no-repeat bottom right / contain;
+    width: 100%;
+    content: '';
+    height: 100%;
+    bottom: -174px;
+    right: -51px;
+    position: absolute;
+    background-size: 60%;
+ } 
+/* lone-wolf-brewing-css--end */
+/* contact-us-section */
+.contact-us-section {
+	
+  background: url('../images/bottom-Bg.jpg') center center no-repeat;
+  padding: 50px 0px;
+  margin-top: 0px;
+    z-index: 11;
+	background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.contact_us_main ul li {
+  list-style: none;
+}
+.contact_us_main h1 {
+  color: white;
+  font-family: var(--Opensans-italic);
+}
+.contact_us_main h2 {
+  color: white;
+  font-family: var(--Myridpro-font);
+}
+.contact_us_main h3 {
+  color: white;
+  font-family: var(--OpenSans-font);
+}
+.contact_us_main p, a {
+  color: white;
+  font-family: var(--Myridpro-font);
+  text-decoration: none;
+  font-size: 24px;
+}
+.contact_us_main a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.footer_section {
+  background: url('../images/Footer-Bg.jpg') no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.footer_section h5 {
+  color: white;
+  font-size: 17px;
+  font-family: var(--OpenSans-font);
+}
+.footer_section ul li {
+  list-style: none;
+  color: white;
+}
+/* page-2-css */
+/* all_buzz_section-css */
+.all_buzz_section {
+  background: url('../images/page-2-banner.png') no-repeat top center;
+  background-size: cover;
+  padding-bottom: 74px;
+}
+.buzz_section_left {
+  margin-top: 54px;
+}
+.product_page_logo{
+  width: 34%;
+}
+.all_buzz_section h1 {
+   font-family: var(--Abrila-font);
+  font-size: 52px;
+  margin: 30px 0 40px;
+}
+.all_buzz_section h3 {
+  font-family: var(--OpenSans-font);
+  margin: 0 0 20px;
+}
+.all_buzz_section p {
+  font-family: var(--Myridpro-font);
+}
+.all_buzz_section_right {
+  position: relative;
+  z-index: 2;
+  margin-top: 55px;
+}
+/*.all_buzz_before_right::before{
+    content: 'UNPLUG';
+    font-size: 145px;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 203px;
+    left: -195px;
+    color: #e1e1e1;
+    font-family: var(--Opensans-italic);
+    z-index: -1;
+
+    
+}*/
+#type-text {
+  font-size: 145px;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 420px;
+  left: 40px;
+  color: #e1e1e1;
+  font-family: var(--Opensans-italic);
+  z-index: -1;
+  width: 100px;
+}
+/*@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}*/
+/* The typewriter cursor effect */
+.all_buzz_before_right img {
+  width: 67%;
+}
+.Want_bold_and_strong h1 {
+  margin-top: 101px;
+  font-size: 34px;
+  font-family: var(--OpenSans-font);
+  padding-bottom: 80px;
+}
+.strong_bottle_can img {
+  width: 21%;
+}
+.mobile-file{ display: none;}
+.last_Section {
+  background: url('../images/footer-Bg.png') no-repeat top center;
+  background-size: cover;
+  margin-top: 110px;
+  padding-bottom: 170px;
+  
+}
+.last_Section {
+  position: relative;
+}
+.bot-gradient{ width: 100%; height: 800px;
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(239,239,239,1) 44%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
+position: absolute;z-index: 3; bottom: 0;
+
+}
+.bot-gradient img{width:80%; padding-top: 230px;}
+.medium-bottle, .small-bottle, .mild_last_section_image_left>img{
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.2)));
+}
+
+
+.last_Section .mid_logo {
+  margin-top: 75px;
+}
+.last_Section_left {
+  width: 107px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  height: 107px;
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+.last_Section_left h3 {
+  font-size: 21px;
+}
+.last_section_image_left img {
+  margin-top: 106px;
+  width: 164%;
+  margin-left: -46px;
+}
+.last_Section_right_image img {
+  width: 71px;
+  margin-top: -4px;
+  margin-left: 0px;
+}
+.img-can img {
+  width: 45%;
+  margin-top: 138px;
+}
+.last_Section_right_image span {
+  font-size: 23px;
+}
+.last_section_right {
+  margin-top: 40px;
+}
+/* .last_section_before::before { */
+  /* content: 'UNLEASH'; */
+  /* position: absolute; */
+  /* color: #e1e1e1; */
+  /* font-size: 220px; */
+  /* font-family: var(--Opensans-italic); */
+  /* bottom: 0px; */
+  /* z-index: -1; */
+  /* left: 11%; */
+/* } */
+/* .all_buzz_section_right::before { 
+   content: ''; 
+   background: white; 
+   width: 220px; 
+   height: 734px; 
+   position: absolute; 
+   left: 169px; 
+   top: -55px; 
+   z-index: -1; 
+ } */
+
+.page_2_bottom_btn {
+  top: 42px;
+}
+.page_2_bottom_btn_two {
+  z-index: 2;
+  top: 79px;
+}
+/* page-3-css-start */
+.a_light_section {
+  background: url('../images/page-2-banner.png') no-repeat top center;
+  background-size: cover;
+  padding-bottom: 73px;
+}
+.a_light_section h1 {
+  font-family: var(--Abrila-font);
+  color: #4fa4b6;
+  font-size: 60px;
+}
+.a_light_section h3 {
+  font-family: var(--OpenSans-font);
+  color: #4fa4b6;
+  font-size: 32px;
+}
+.light_section_left {
+  margin-top: 110px;
+}
+.light_before_right::before {
+  content: 'UNPLUG';
+  font-size: 120px;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 185px;
+  right: -38px;
+  color: #e1e1e1;
+  font-family: var(--Opensans-italic);
+  z-index: -1;
+}
+.light_before_right img {
+  width: 67%;
+}
+.LOW_ON_CALORIES h3 {
+  margin-top: 101px;
+  font-size: 34px;
+  font-family: var(--OpenSans-font);
+  padding-bottom: 80px;
+  color: #4fa4b6;
+}
+.a_light_section_right {
+  position: relative;
+  z-index: 2;
+  margin-top: 55px;
+}
+.mild_bottle_can img {
+  width: 32%;
+}
+
+/* .lite_last_section_before::before{ */
+/* content: 'UNPLUG'; */
+/* position: absolute; */
+/* color: #e1e1e1; */
+/* font-size: 245px; */
+/* letter-spacing: 34px; */
+/* font-family: var(--Opensans-italic); */
+/* bottom: 0px; */
+/* z-index: -1; */
+/* left: 50%; */
+/* transform:translate(-50%, 0); */
+/* } */
+/* .unplug-back { */
+/* background: url(../images/unplug-back.png) no-repeat center center; */
+/* z-index: 1; */
+/* background-size: 900px; */
+/* height: 367px; */
+/* z-index: 999; */
+/* position: relative; */
+/* text-align: center; */
+/* margin-top:-200px; */
+/* background-attachment:fixed; */
+/* } */
+.mild_last_Section_left {
+  width: 107px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  height: 107px;
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+.mild_last_section_image_left img {
+  margin-top: 66px;
+  width: 168%;
+  margin-left: -46px;}
+/* .mild_last_Section_right_image{ */
+/* text-align: center; */
+/* } */
+
+.mild_last_Section_right_image img {
+  width: 71px;
+  margin-top: -4px;
+  margin-left: 0px;
+}
+.mild_last_Section_right_image span {
+  font-size: 23px;
+}
+.mild_img-can img {
+  width: 43%;
+  margin-top: 215px;
+  margin-left: 30px;
+}
+.display-mob {
+  display: none;
+}
+.mild_last_section_right {
+  margin-top: 95px;
+  text-align: center;
+}
+.mild_small_bottle img {
+  width: 38%;
+  margin-top: 233px;
+  margin-left: 100px;
+}
+/* .mild_small_bottle{ */
+/* text-align: center; */
+/* } */
+.Alcohol_volume h4 {
+  color: #f47e20;
+  font-family: var(--Opensans-italic);
+  position: relative;
+}
+.ingredients {
+  margin-top: 250px;
+  position: relative;
+}
+.ingredients h4 {
+  color: #f47e20;
+  font-family: var(--Opensans-italic);
+  position: relative;
+}
+.strong_bottle_can {
+  position: relative;
+  z-index: 9999;
+  margin-left: -40px;
+}
+.ingredients::after {
+  right: auto;
+  left: 15px;
+  top: -32px;
+}
+.mild_last_Section_left, .mild_last_Section_left h3, .Characteristics h4 {
+  position: relative;
+}
+.mild_last_Section_left::after {
+  top: calc(100% + 19px);
+  right: -153px;
+}
+.mild_last_Section_left h3::after {
+  background: #ddd;
+  content: '';
+  width: 1px;
+  height: 135px;
+  position: absolute;
+  right: -87px;
+  top: 1px;
+  transform: rotate(-72deg);
+}
+.Alcohol_volume {
+  position: relative;
+}
+.Characteristics {
+  margin-top: 245px;
+  position: relative;
+  text-align: end;
+}
+/* bullets orange  */
+.bullets-orange ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.bullets-orange ul li {
+  color: #f47e20;
+  font-size: 40px;
+}
+.bullets-orange ul li {
+  position: absolute;
+  z-index: 999;
+}
+.bullets-orange ul li:first-child {
+  left: 60px;
+  top: -18px;
+}
+.bullets-orange ul li:first-child::before {
+  background: #000;
+  content: '';
+  width: 1px;
+  height: 182px;
+  position: absolute;
+  left: 45px;
+  top: 0;
+  transform: rotate(-51deg);
+  z-index: -1;
+}
+.bullets-orange ul li:first-child::after {
+  background: #000;
+  content: '';
+  width: 1px;
+  height: 302px;
+  z-index: -1;
+  position: absolute;
+  left: -13px;
+  top: 30px;
+  transform: rotate(-187deg);
+}
+.bullets-orange ul li:nth-child(2) {
+  left: 94px;
+  top: 280px;
+}
+.bullets-orange ul li:nth-child(2)::after {
+  background: #000;
+  content: '';
+  width: 547px;
+  height: 1px;
+  position: absolute;
+  left: -31px;
+  transform: rotate(-8deg);
+  margin-left: 0;
+  z-index: -1;
+  top: -7px;
+}
+.bullets-orange ul li:nth-child(3) {
+  left: calc(100% + 40px);
+  top: 203px;
+}
+.bullets-orange ul li:nth-child(3)::before {
+  background: #000;
+  content: '';
+  width: 439px;
+  height: 1px;
+  position: absolute;
+  z-index: -1;
+  left: -471px;
+  top: 0;
+  transform: rotate(8deg);
+}
+.bullets-orange.mild ul li {
+  color: #4FA5B6
+}
+.Alcohol_volume.mild h4 {
+  color: #4FA5B6
+}
+.ingredients.mild h4 {
+  color: #4FA5B6
+}
+.mild {
+  color: #4FA5B6
+}
+.strong_can img {
+  margin-top: 0px;
+  margin-left: 70px;
+}
+.banner-mild-bottle {
+  width: 75%;
+    position: relative;
+    left: -20px;
+}
+.bottle_can img {
+  margin-top: 77px;
+}
+.belgian-brew {
+  background: url('../images/wolf-back.png') no-repeat center center;
+  background-attachment: scroll;
+  background-attachment: fixed;
+  background-size: 600px;
+}
+/* page-3-css-end */
+/* color css */
+.orange-c {
+  color: #f47e20;
+}
+/* polygon sec */
+.poly-text {
+    background: url(../images/left-polygon.png) no-repeat center center;
+    position: absolute;
+    z-index: 9;
+    width: 410px;
+    height: 292px;
+    margin: 0px auto 0;
+    background-position: 58%;
+	opacity:0;
+	top:20px;
+	    left: 46%;
+    transform: translate(-50%, 0);
+	transition:0.5s ease-in-out; background-size: 80%;
+}
+.polygon-sec ul li:last-child .poly-text {
+    background: url(../images/right-polygon.png) no-repeat center center; background-size: 80%; left: 55%;
+}
+
+.polygon-sec ul li:last-child .poly-text h1{padding-top: 110px;}
+
+.polygon-sec {
+    position: relative;
+}
+
+.polygon-sec ul li:last-child img {
+    margin-top: 300px;
+    transform: rotate(-2deg);
+    left: 8%;
+    top: -100px;
+}
+.polygon-sec ul li {
+float: left;
+    width: 25%;
+    margin: 0 12%;
+	
+}
+.polygon-sec ul li img {
+    margin-top: 300px;
+    transform: rotate(0deg);
+    width: 98%;
+    left: 0%;
+    left: -7%;
+    top: -105px;
+    position: relative;
+}
+.poly-text h1 {
+    padding-top: 100px;
+    max-width: max-content;
+    text-align: center;
+    margin: 0 auto;
+    left: 15%;
+    position: relative; font-size: 2.1rem;
+}
+.poly-text a ,
+.poly-text h5 {
+    max-width: max-content;
+    text-align: center;
+    margin: 0 auto;
+    left: 15%;
+    position: relative;
+}
+
+.poly-text.poly-text2 h1, .poly-text.poly-text2 a,
+.poly-text.poly-text2 h5 {
+      left: -55px!important;
+	   position: relative;
+}
+.polygon-sec ul li:hover .poly-text{opacity:1;
+	transition:0.5s ease-in-out; z-index: 10;
+}
+
+/* #call_canva #defaultCanvas0 {
+    width: 1320px !important;
+    height: 700px !important;
+} */
+#call_canva #defaultCanvas0 {width: 1120px !important;
+height: 650px !important;}
+@media screen and (min-width:1024px) and (max-width:1367px) {
+ 
+  .lone-wolf-layer {
+    font-size: 240px;
+    letter-spacing: 26px;
+    line-height: 380px;
+  }
+  .section-before::before {
+    font-size: 240px;
+    letter-spacing: 26px;
+  }
+  .wolf svg {
+    width: 700px;
+  }
+  .section-before::after {
+    font-size: 240px;
+  }
+  .Age_is_just_number h1 {
+    font-size: 30px;
+  }
+  .five_bottle_before::before {
+    font-size: 125px;
+  }
+  .Age_is_just_number P {
+    font-size: 20px;
+    margin: 10px auto 10px;
+  }
+  .lone_wolf_brewing_container .lone_wolf_brewing_right p:before {
+    top: -27px;
+    left: -66px;
+    background-size: 33%;
+  }
+  .lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+    bottom: -82px;
+    right: -80px;
+    background-size: 40%;
+  }
+  .lone_wolf_brewing {
+    padding: 100px 0px 64px 0px;
+  }
+  /* page 2 */
+  #type-text {
+    font-size: 120px;
+    top: 390px;
+  }
+  .lite_last_section_before::before {
+    font-size: 160px;
+  }
+}
+@media screen and (max-width:1024px) {
+  .bottel-gradient{
+    width: 13%;
+  }
+  /* page 2 */
+  #type-text {
+    font-size: 100px;
+    top: 345px;
+  }
+	#call_canva #defaultCanvas0{    width: 960px !important;
+    height: 520px !important;}
+ .you_have_entered {
+	background-size: cover;}
+	.five_bottles_inner figure img {
+		width: 30%;
+}
+.bottles_block figure {
+    height: 340px;
+}
+.container {
+     max-width: 100%;
+}
+.five_bottles_inner {
+	max-width:90%;
+	margin:0 auto;
+    background: url(../images/line-4.png) no-repeat center center / 80%;
+}
+.five_bottles_inner ul li img {width:90%;}
+.five_bottles_inner ul li:nth-child(3) {
+    right: -5px;
+}
+.five_bottles_inner ul li:nth-child(2) {
+
+    left: -5px;
+}
+#call_canva #defaultCanvas0 {
+    width: 960px !important;
+    height: 520px !important;
+}
+}
+@media screen and (max-width:992px) {
+  .bottel-gradient{
+    width: 13%;
+  }
+  .lone-wolf-layer {
+    font-size: 210px;
+    letter-spacing: 10px;
+    line-height: 380px;
+  }
+  .section-before::before {
+    font-size: 210px;
+    letter-spacing: 10px;
+  }
+  .wolf svg {
+    width: 600px;
+  }
+  .section-before::after {
+    font-size: 210px;
+    letter-spacing: 30px;
+  }
+  .Age_is_just_number h1 {
+    font-size: 25px;
+  }
+  .Number-form .custom_form, .Number-form .input_custom_form, .Number-form .custom_enter_button {
+    padding: 10px 16px;
+  }
+  .five_bottle_before::before {
+    font-size: 70px;
+    letter-spacing: 20px;
+  }
+  .Age_is_just_number p {
+    font-size: 16px;
+  }
+  .lone_wolf_brewing_container .lone_wolf_brewing_right p:before {
+    top: -27px;
+    left: -66px;
+    background-size: 30%;
+  }
+  .lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+    background-size: 36%;
+  }
+  .Number-form .custom_enter_button {
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+  }
+  .Alcohol_volume h4, .ingredients.mild h4 {
+    font-size: 15px;
+  }
+  .Alcohol_volume p, .ingredients.mild p {
+    font-size: 12.5px;
+  }
+  .bullets-orange ul {
+    max-width: 390px;
+  }
+  .bullets-orange ul li:nth-child(2) {
+    left: 91px;
+    top: 254px;
+  }
+  .bullets-orange ul li:nth-child(2)::after {
+    width: 343px;
+    top: 7px;
+  }
+  .bullets-orange ul li:first-child::after {
+    height: 276px;
+  }
+  .bullets-orange ul li:first-child::before {
+    height: 191px;
+    left: 30px;
+    top: 17px;
+    transform: rotate(-38deg);
+  }
+  .bullets-orange ul li:nth-child(3)::before {
+    width: 221px;
+    left: -251px;
+    transform: rotate(16deg);
+  }
+  #call_canva #defaultCanvas0 {
+    width: 100% !important;
+    height: auto !important;
+}
+}
+@media screen and (max-width:768px) {
+ .all_buzz_section h1 {    background: linear-gradient(to right,#4FA5B6 50%, #fff 40%);
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition: 1.5s ease-in-out;
+}
+ .all_buzz_section h1 {animation: textanimation reverse infinite 1.5s;
+
+   transform: scale(1.07,1.07);
+    transition: 2s cubic-bezier(0, 0.21, 0.18, 0.9);}
+	
+	@keyframes textanimation {
+ 
+  to {
+    background-position: 200% center;
+    
+  }
+  
+}
+.medium-bottle, .small-bottle, .mild_last_section_image_left>img{
+	-webkit-box-reflect:  initial;
+}
+  .bot-gradient{
+    display: none;
+  }
+  .home_page_button_three{
+    top: 10px !important;
+  }
+  .lone_wolf_brewing_container .lone_wolf_brewing_right p img {
+    width: 82.5%;
+}
+  .lone_wolf_brewing {
+    background: url('../images/section-4-bg.png') no-repeat center bottom;
+    background-size: 121%;
+    padding: 240px 0px 159px 0px;
+    overflow: hidden;
+}
+  .lone_wolf_brewing_container .lone_wolf_brewing_right p:before {
+    top: -21px;
+    left: -7px;
+    background-size: 30%;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+  background-size: 30%;
+  bottom: -37px;
+    right: -9px;
+}
+  .home_page_button_3{
+    top: 10px !important ;
+
+  }
+  .wolf svg {
+    width: 700px;
+  }
+	.banner-mild-bottle {
+
+    left: 0;
+}
+  .lone-wolf-layer {
+    font-size: 200px;
+    line-height: 350px;
+  }
+  .section-before::before {
+    font-size: 200px;
+    bottom: auto;
+    letter-spacing: 20px;
+  }
+  .section-before::after {
+    font-size: 200px;
+    letter-spacing: 45px;
+    bottom: -11%;
+  }
+  .section_1_bg .container {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .lone_wolf_brewing {
+    padding: 0px 10px 0px;
+  }
+
+  .waves {
+    display: none;
+  }
+  .desktop_view {
+    display: none;
+  }
+  .mobile_carousel {
+    display: block;
+  }
+  .mobile_nav {
+    display: block;
+  }
+  .desktop_nav {
+    display: none;
+  }
+  .Age_is_just_number h1 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .Age_is_just_number P {
+    font-size: 16px;
+  }
+  .main-logo img {
+    width: 14%;
+  }
+  .nav_logo img {
+    width: 45% !important;
+  }
+  .custom_toggler:focus {
+    box-shadow: none;
+  }
+  .you_have_entered h1 {
+    font-size: 20px;
+  }
+  .you_have_entered h4 {
+    color: #fff;
+    font-family: var(--Myridpro-font);
+    font-size: 16px;
+    margin-top: 14px;
+  }
+  .you_have_entered h3 {
+    font-size: 15px;
+  }
+  .down_btn {
+    left: 50%;
+    /* top: 100%; */
+    margin-left: -61px;
+	  text-align: center;
+  }
+  .five_bottles-section h1 {
+    padding-top: 0px;
+  }
+  .five_bottles-section .bootel_img {
+    margin-top: 17px;
+  }
+  .entered_section_logo img {
+    width: 16%
+  }
+  .down_btn img {
+	      z-index: 99;
+    position: relative;
+    width: 34% !important;
+  }
+  .five_bottles-section h2 {
+    font-size: 18px;
+  }
+  .five_bottles-section h3 {
+    font-size: 17px;
+  }
+  .unfollow_img img {
+    width: 35%;
+  }
+  .mild_lagar_Section h1 {
+    font-size: 26px;
+    margin-top: 32px;
+  }
+  .lone_wolf_brewing_container {
+    background: none !important;
+    padding: 41px 0px;
+  }
+  .lone_wolf_brewing_left h1 {
+    text-align: center;
+    font-size: 31px;
+  }
+  .animated_bottle img {
+    width: 13%;
+    margin-top: 26px;
+  }
+  .lone_wolf_brewing_left .head-1 {
+    margin-top: 11px;
+  }
+  .lone_wolf_brewing_left .head-3 {
+    margin-top: 44px;
+    font-family: var(--Myridpro-font);
+  }
+  .lone_wolf_brewing_left .wave-1 {
+    margin-top: 34px;
+    margin-left: 30px;
+    width: 114px;
+  }
+  .lone_wolf_brewing_left .head-2 {
+    margin-top: 60px;
+    font-family: var(--Myridpro-font);
+  }
+  .lone_wolf_brewing_left .wave-2 {
+    margin-top: 39px;
+    margin-left: 30px;
+    width: 114px;
+  }
+  .lone_wolf_brewing_left .wave-3 {
+    margin-top: 27px;
+    width: 114px;
+  }
+  .lone_wolf_brewing_left h4 {
+    margin-top: 27px;
+  }
+  .lone_wolf_brewing_left .waves {
+    margin-top: 8px;
+  }
+  .lone_wolf_brewing_right {
+    margin-top: 22px;
+  }
+  .mobile_center {
+    text-align: center;
+  }
+  .contact-us-section {
+    margin-top: -8px;
+  }
+  .contact_us_main p, a {
+    font-size: 22px;
+  }
+  .contact_us_main h1 {
+    font-size: 26px;
+  }
+  .contact_us_main h2 {
+    font-size: 20px;
+  }
+  .contact_us_main h3 {
+    font-size: 20px;
+  }
+  .footer_logo img {
+    width: 30% !important;
+  }
+  .footer_section {
+    text-align: center;
+    padding: 25px 0px;
+  }
+  /* page-2-mobile-responsive */
+  #type-text {
+    font-size: 76px;
+    top: 228px;
+    left: 20px;
+  }
+  .buzz_section_left {
+    margin-top: 12px;
+  }
+  .buzz_Section_logo img {
+    width: 45%;
+  }
+  .buzz_section_left h1 {
+    font-size: 28px;
+  }
+  .buzz_section_left h3 {
+    font-size: 18px;
+  }
+  .buzz_section_left .buzZ_text {
+    font-size: 14px;
+  }
+  .all_buzz_section {
+    padding-bottom: 18px;
+  }
+  .all_buzz_section_right {
+    position: relative;
+    z-index: 2;
+    margin-top: 116px;
+  }
+  .page_2_bottom_btn {
+    left: 50%;
+    top: 0 !important;
+  }
+  .Want_bold_and_strong h1 {
+    margin-top: 26px;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .Characteristics {
+    margin-top: 228px;
+  }
+  .last_Section {
+    margin-top: 19px;
+  }
+  .page_2_bottom_btn_two {
+    left: 50%;
+    top: 0 !important;
+  }
+  .mid_logo img {
+    width: 53%;
+    margin: 40px auto;
+  }
+  .last_Section_left {
+    width: 53px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    height: 55px;
+    padding: 10px 0px;
+    margin: 0 auto;
+  }
+  .last_Section_left h3 {
+    font-size: 16px;
+  }
+  .last_section_image_left img {
+    margin-top: 41px;
+    margin-left: -16px;
+  }
+  .last_Section_right_image img {
+    width: 36px;
+  }
+  .last_Section_right_image span {
+    font-size: 16px;
+  }
+  .img-can img {
+    margin-top: 38px;
+    width: 51%;
+  }
+  .last_Section .mid_logo {
+    margin-top: 33px;
+  }
+  .strong_can img {
+    margin-top: 26px;
+  }
+  .bullets-orange ul {
+    max-width: 320px;
+  }
+  .bullets-orange ul li:nth-child(2)::after {
+    width: 278px;
+    top: 5px;
+    transform: rotate(-11deg);
+  }
+  .Alcohol_volume p, .ingredients p {
+    font-size: 14px;
+  }
+  .Alcohol_volume p br, .ingredients p br {
+    display: none;
+  }
+  .Alcohol_volume h4, .ingredients.mild h4 {
+    font-size: 18px;
+  }
+  /* page-3-mobile-responsive-css */
+  .a_light_section h3 {
+    font-size: 18px;
+  }
+  .a_light_section h1 {
+    font-size: 18px;
+  }
+  .a_light_section .lite_text {
+    font-size: 14px;
+  }
+  .light_section_left {
+    margin-top: 12px;
+  }
+  .LOW_ON_CALORIES h3 {
+    margin-top: 27px;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .mild_last_Section_left {
+    width: 47px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    height: 47px;
+    padding: 19px 0px;
+    margin: 0 auto;
+  }
+  .mild_last_section_image_left img {
+    margin-top: 42px;
+    width: auto;
+    margin-left: 20px;
+  }
+  .mild_last_section_image_left h3 {
+    font-size: 10px;
+  }
+  .mild_img-can img {
+        width: 25%;
+    margin-top: 22px;
+    margin-left: 40px;
+  }
+  .mild_last_Section_right_image img {
+    width: auto;
+    margin-top: -4px;
+    margin-left: 0px;
+  }
+  .mild_last_Section_right_image span {
+    font-size: 10px;
+  }
+  .mild_small_bottle img {
+    width: 25%;
+    margin-top: 56px;
+	  margin-left: 26px;
+  }
+  .mild_last_Section_left h3 {
+    font-size: 10px;
+  }
+  .bottle_can img {
+    margin-top: 23px;
+  }
+  .home_page_button {
+    left: 50%;
+    text-align: center;
+  }
+  .five_bottle_before::before {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+  /* .lone_wolf_brewing_container .lone_wolf_brewing_right p:before, .lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+    content: none;
+  } */
+  #Create {
+    /*transform: translateY(-35px) !important;*/
+  }
+.section_1_bg {
+    height: 100vh;
+}
+  #Create {
+   /* margin-top: 35px !important;*/
+  }
+  .five_bottels {
+    padding-top: 60px;
+  }
+  
+  #call_canva {
+    display: none;
+  }
+  .buzz_Section_logo img {
+    display: block;
+  }
+  .all_buzz_section h1 {
+    margin: 34px 0 0px;
+  }
+  .all_buzz_section_right {
+    margin-top: 35px;
+  }
+  .strong_can img {
+    margin-left: 5px;
+  }
+  .strong_bottle_can {
+    margin-left: -10px;
+  }
+  .mild_last_section_right {
+    text-align: left;
+  }
+  .mild_last_Section_left {
+    width: auto;
+    text-align: left;
+    margin: 0 auto;
+    height: auto;
+  }
+  .mild_last_section_image_left img.large-bottle {
+    margin-top: 0;
+    width: 45%;
+    margin-left: 30px;
+  }
+  svg#large-moon {
+    width: 35%;
+    position: absolute;
+    left: 55%;
+    top: 170px;
+    display: none;
+  }
+  .mild_last_section_right {
+    margin-top: 25px;
+  }
+  .display-mob {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    width: 22% !important;
+  }
+  .mild_img-can, .mild_small_bottle {
+    position: relative;
+  }
+	.down_btn {
+ top: 99px; 
+}
+	.mobile-file{ display: inline-block;}
+	
+	.trangle-handler{     
+		position: absolute;
+    z-index: 0;
+    left: 0%;
+  padding: 0px 12px;}
+	.btm-text{margin-top:0px!important;}
+	.five_bottles_inner ul{display:none;}
+.five_bottles_inner {
+	background:none;
+    padding-top: 10px;
+}
+	.bottles_block figure {
+    height: auto;
+	margin:20px auto;
+}
+.mild_last_section_image_left img.large-bottle {
+    margin-top: 0;
+    width: 25%;
+    margin-left: 30px;
+}
+.lone_wolf_brewing_right p{
+  text-align: center;
+}
+}
+@media screen and (max-width:600px) {
+  .know_more_button {
+    padding: 0px 4px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+  p.mild_last_Section_right_image svg {
+    width: 94px;
+    height: 35px;
+    display: none;
+  }
+  .five_bottles_inner figure img {
+    width: 40%;
+}
+  .wolf svg {
+    width: 450px;
+  }
+  .five_bottle_before::before {
+    font-size: 40px;
+  }
+  .five_bottle_before::before {
+    font-size: 36px;
+    left: 60%;
+  }
+  .lone-wolf-layer, .section-before::before {
+    font-size: 150px;
+    letter-spacing: 10px;
+    bottom: auto;
+  }
+  .section-before::after {
+    font-size: 150px;
+    letter-spacing: 10px;
+  }
+  .section_1_bg .container {
+    padding-top: 16px;
+    padding-bottom: 51px;
+  }
+  #type-text {
+    font-size: 45px;
+    top: 107px;
+    left: -6px;
+  }
+  .Alcohol_volume h4, .ingredients.mild h4 {
+    font-size: 14px;
+  }
+  .bullets-orange ul {
+    max-width: 220px;
+  }
+  .Alcohol_volume p, .ingredients p {
+    font-size: 11px;
+  }
+  .Characteristics {
+    margin-top: 126px;
+  }
+  .bullets-orange ul li:nth-child(2) {
+    left: 80px;
+    top: 150px;
+  }
+  .bullets-orange ul li:nth-child(2)::after {
+    width: 190px;
+    top: 5px;
+    transform: rotate(-15deg);
+  }
+  .bullets-orange ul li:first-child::before {
+    height: 114px;
+    left: 4px;
+    top: 17px;
+  }
+  .bullets-orange ul li:first-child::after {
+    height: 173px;
+    left: -19px;
+  }
+  .bullets-orange ul li:nth-child(3)::before {
+    width: 140px;
+    left: -165px;
+    transform: rotate(11deg);
+    top: 20px;
+  }
+  .Alcohol_volume h4, .ingredients.mild h4 {
+    font-size: 10px;
+  }
+  .Alcohol_volume p, .ingredients.mild p {
+    font-size: 11px;
+  }
+  .ingredients {
+    margin-top: 145px;
+  }
+  .bullets-orange ul li:nth-child(3) {
+    top: 97px;
+  }
+  .belgian-brew {
+    background-size: 240px;
+  }
+  .polygon-sec ul li {
+    height: 218px;
+}
+.mild_lagar_Section {
+    padding: 00px 0 30px;
+}
+.polygon-sec ul li img {
+     width: 37%;
+    left: -58px;
+    margin-top: 277px;
+}
+
+.polygon-sec ul li:last-child .poly-text {
+    background: url(../images/right-polygon.png) no-repeat center center;
+}
+.poly-text {
+
+    width: 155px;
+    height: 210px;
+     background-size: contain!important;
+     top: 30px;
+     left: 42%;
+}
+.mild_lagar_Section h1 {
+    font-size: 16px; 
+	padding-top:32px;
+ 
+}
+.poly-text.poly-text2 h1, .poly-text.poly-text2 a, .poly-text.poly-text2 h5 {
+    left: -25px!important;
+}
+.polygon-sec ul li:last-child .poly-text h1 {
+    padding-top: 25px;
+}
+.poly-text h5 {
+    font-size:16px;
+}
+.polygon-sec ul li:last-child img {
+    left: 30%;
+    top: -157px;
+}
+.mild_lagar_Section h1 {
+    font-size: 14px !important;
+    padding-top: 40px !important;
+    margin-top: 39px;
+}
+}
+@media screen and (max-width:414px) {
+  .wolf svg {
+    width: 280px;
+  }
+
+  .Age_is_just_number P {
+    font-size: 24px;
+  }
+  .Age_is_just_number h1 {
+    font-size: 17px;
+  }
+  .lone-wolf-layer {
+    font-size: 90px;
+    line-height: 200px;
+  }
+  .section-before::before {
+    letter-spacing: 10px;
+    bottom: auto;
+  }
+  .section-before::after {
+    font-size: 90px;
+    letter-spacing: 10px;
+    bottom: 49%;
+  }
+  .section_1_bg .container {
+    padding-bottom: 20px;
+  }
+  .five_bottle_before::before {
+    font-size: 32px;
+    left: 50%;
+  }
+  .contact_us_main p, a {
+    font-size: 18px;
+  }
+  .contact_us_main p {
+    display: block;
+  }
+  .contact_us_main p.divider {
+    display: none !important;
+  }
+  .contact_us_main h1 {
+    font-size: 24px;
+  }
+  #type-text {
+    font-size: 45px;
+    top: 93px;
+    left: -6px;
+  }
+  .all_buzz_section h1 {
+  /*  margin: 14px 0 20px;*/
+  }
+  .buzz_section_left .buzZ_text {
+    font-size: 13px;
+  }
+  .all_buzz_section_right {
+    margin-top: 75px;
+  }
+  .buzz_section_left h3 {
+    font-size: 15px;
+  }
+  .Alcohol_volume p.text-end {
+    text-align: center !important;
+    margin-left: -10px !important;
+  }
+  .Alcohol_volume p, .ingredients.mild p {
+    width: 80px;
+  }
+
+}
+@media screen and (min-width:552px) and (max-width:1023px) {
+  .desktop_view {
+    display: none;
+  }
+  .mobile_carousel {
+    display: block;
+  }
+  .lone_wolf_brewing_left .wave-2 {
+    margin-top: 47px;
+  }
+  .mobile_nav {
+    display: block;
+  }
+  .desktop_nav {
+    display: none;
+  }
+  .nav_logo img {
+    width: 47% !important;
+  }
+  .down_btn {
+    left: 50%;
+    top: 98px;
+  }
+  .home_page_button {
+    left: 50%;
+    top: 38px;
+  }
+  .home_page_button_3 {
+    top: 99px !important;
+}
+  .you_have_entered h4 {
+    margin-top: 26px;
+  }
+  .entered_section_logo img {
+    width: 25%;
+  }
+  .you_have_entered {
+    background: url('../images/Banner.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 120px;
+  }
+.bottles_block figure {
+    height: auto;
+}
+.bottles_block a.btn {
+   
+    max-width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+  .lone_wolf_brewing_container {
+    background: none;
+    background-size: 59%;
+    padding-bottom: 0px;
+    padding-top: 70px;
+  }
+  .lone_wolf_brewing h1 {
+    text-align: center;
+  }
+  .mobile_center {
+    text-align: center;
+  }
+  .lone_wolf_brewing_right {
+    margin-top: 30px;
+  }
+  .contact-us-section {
+    background-size: cover;
+    padding: 50px 0px;
+    margin-top: 37px;
+  }
+  /* page-2-media-responsive-css */
+  .page_2_bottom_btn {
+    left: 45%;
+    top: 32px;
+  }
+  .all_buzz_before_right::before {
+    font-size: 89px;
+  }
+  .last_section_before::before {
+    font-size: 162px !important;
+  }
+  .img-can img {
+    width: 51% !important;
+    margin-top: 105px;
+  }
+  .page_2_bottom_btn_two {
+    left: 45%;
+    top: 100px;
+  }
+  .strong_can img {
+    margin-top: 50px;
+  }
+  /* page-3-mobile-responsive-css */
+  .lite_last_section_before::before {
+    font-size: 130px;
+  }
+  .light_before_right::before {
+    font-size: 89px;
+  }
+  .bottle_can img {
+    margin-top: 48px;
+  }
+  .mild_small_bottle img {
+    width: 55% !important;
+    margin-top: 70px;
+  }
+  .mild_last_section_image_left img {
+    margin-top: 91px;
+    width: 121%;
+    margin-left: -19px;
+  }
+  .mild_img-can img {
+    width: 45%;
+    margin-top: 121px;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1025px) {
+  .lone_wolf_brewing_left .wave-2 {
+    margin-top: 64px;
+  }
+  .lone_wolf_brewing_left .wave-3 {
+    margin-top: 57px;
+  }
+  .lone_wolf_brewing_left .head-2 {
+    margin-top: 82px;
+  }
+  .lone_wolf_brewing_left .wave-1 {
+    margin-top: 75px;
+  }
+  .lone_wolf_brewing_left .head-3 {
+    margin-top: 63px;
+  }
+  /* .lone_wolf_brewing { */
+  /* background: url(../images/Beer-Bg-shape.png) no-repeat 89% 152px; */
+  /* background-size: 52%; */
+  /* } */
+  .img-can img {
+    width: 57%;
+    margin-top: 114px;
+  }
+  .mild_small_bottle img {
+    width: 55%;
+    margin-top: 123px;
+  }
+  .mild_last_section_image_left img {
+    margin-top: 109px;
+    width: 169%;
+    margin-left: -46px;
+  }
+  .mild_img-can img {
+    width: 58%;
+    margin-top: 121px;
+  }
+  .bottel_1 {
+    margin-top: 54px;
+  }
+  .section_1_bg {
+    background: url('../images/BG.jpg') no-repeat top center;
+    background-size: cover;
+    padding-top: 79px;
+    padding-bottom: 119px;
+  }
+}
+@media (min-width: 1400px){
+
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+
+}
+.bottel-gradient{
+  width: 20%;
+}
+}
+.tablinks{
+  background-color: white !important;
+  border: 1px solid black;
+  border-radius:20px;
+  padding: 5px 30px;
+}
+  
+.tablinks:hover{
+  background-color: #000 !important;
+  color: white !important;
+}
+  

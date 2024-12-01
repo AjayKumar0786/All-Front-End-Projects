@@ -1,0 +1,1610 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --Abrila-font:'AbrilFatface-Regular';
+    --Myridpro-font:'MyriadPro-Regular_0';
+    --OpenSans-font:'OpenSans-Bold';
+    --Opensans-italic:'OpenSans-BoldItalic';
+
+}
+
+
+
+/* section-1-csss */
+.section_1_bg{
+  background: url('../images/BG.jpg') no-repeat top center;
+  background-size: cover;
+  padding-top: 106px;
+  padding-bottom: 151px;
+  position: relative;
+}
+
+
+.section-before::before {
+	content: 'LONE';
+    position: absolute;
+    font-size: 315px;
+    letter-spacing: 66px;
+    font-weight: bold;
+   left: 54.3%;
+    transform: translate(-50%, 0);
+    bottom: 42%;
+	color: rgba(255,255,255,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    mix-blend-mode: darken;
+}
+.section-before::after {
+    content: 'WOLF';
+    position: absolute;
+    font-size: 315px;
+    letter-spacing:76px;
+    font-weight: bold;
+   	color: rgba(255,255,255,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    mix-blend-mode: darken;
+        left: 53%;
+	transform:translate(-50%, 0);
+    bottom: -12%;
+}
+.lone_wolf{
+    position: relative;
+    z-index: 2;
+}
+.lone-wolf-logo{
+    text-align: center;
+
+
+}
+.Age_is_just_number h1{
+font-family: var(--OpenSans-font);
+margin-top: 0px;
+
+}
+.Age_is_just_number P{
+  font-size: 30px;
+  font-family: var(--Myridpro-font);
+  margin:15px auto 10px;
+
+}
+.Number-form .custom_form{
+background-color: black;
+color: white;
+cursor:auto;
+padding: 15px 23px;
+border-radius: 0 ;
+font-family: var(--OpenSans-font);
+}
+.Number-form .custom_form:focus{
+
+    outline: none;
+    box-shadow: none;
+    
+}
+.Number-form .input_custom_form{
+    padding: 15px 23px;
+    color: black;
+    border-radius: 0 ;
+    font-family: var(--OpenSans-font);
+
+}
+.Number-form .custom_enter_button{
+
+    padding: 15px;
+    margin-left: 0;
+    border-radius: 0 ;
+	display:block;
+    font-family: var(--OpenSans-font);
+	width:100%;
+}
+.Number-form .input_custom_form:focus{
+
+    outline: none;
+    box-shadow: none;
+   
+}
+/* section-1-css-end */
+
+
+
+/* navbar-section-css */
+.nav_bg{
+    background:url('../images/logo-BG.jpg') no-repeat center ;
+    background-size:cover ;
+  
+}
+.container .nav{
+    position: absolute;
+    top: 30%;  
+     right: 2%;
+    height: 60px;
+    z-index: 5;
+    overflow: hidden;
+}
+/************** .nav .toggle  *******************/
+.container .nav ul.toggle{
+    position: relative;
+    float: left;
+    height: 47px;   width: 70px;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+    cursor: pointer;
+    margin-top: -1px;
+ 
+}
+.container .nav ul.toggle.active{
+    background: #070404;
+}
+.container .nav ul.toggle li{
+    list-style: none;
+    position: absolute;
+    left: 10%;
+    width: 80%;   height: 5px;
+    background: #fff;
+    transform: translate(0,-50%);
+    transition: .9s;
+}
+.container .nav ul.toggle li:nth-of-type(1){
+    top: 20%;
+}
+.container .nav ul.toggle li:nth-of-type(2){
+    top: 50%;
+}
+.container .nav ul.toggle li:nth-of-type(3){
+    top: 80%;
+}
+.container .nav ul.toggle.active li:nth-of-type(1){
+    top: 50%;
+    transform: translate(0,-50%) rotate(45deg);
+}
+.container .nav ul.toggle.active li:nth-of-type(2){
+    left: 100%;
+    opacity: 0;
+}
+.container .nav ul.toggle.active li:nth-of-type(3){
+    top: 50%;
+    transform: translate(0,-50%) rotate(-45deg);
+}
+.container .nav ul.menu{
+    position: relative;
+    float: left;
+    height: 46px;
+      line-height: 50px;
+    background: rgba(0,0,0,.5);
+    left: 104%;
+    transition: .9s;
+    z-index: 1;
+}
+.container .nav ul.menu.active{
+    left: 0;
+}
+.container .nav ul.menu li{
+    list-style: none;
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.container .nav ul.menu li a{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;   text-transform: uppercase;
+}
+.container .nav ul.menu li:hover a{
+    background: #0e0c0c;
+}
+
+
+/* mobile-nav-section */
+.nav_bg_2{
+    background:url('../images/logo-BG.jpg') no-repeat top ;
+    background-size:cover ;
+height: 72px;
+  
+}
+.nav_bg_2.mobile_nav #navbarNav {
+  background: rgb(46, 46, 46) none repeat scroll 0% 0%;
+  margin: 9px -15px;
+  padding: 0px 20px;
+}
+.mobile_nav{
+    display: none;
+}
+.custom-link{
+    color: white;
+    font-size: 16px;
+}
+.custom-link:hover{
+    color: white;
+}
+.custom_toggler:focus{
+    box-shadow: none !important;
+}
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* Color of 3 lines */
+
+.navbar-toggler.collapsed .toggler-icon {
+    background: white;
+}
+
+/* mobile-nav-section-end */
+/* navbar-section-css-end */
+
+
+
+
+/* you_have_entered-css */
+.you_have_entered{
+
+    background: url('../images/Banner.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.bottom_button{
+    position: relative;
+}
+.down_btn{
+    position: absolute;
+    left: 45%;
+    top: 90px;
+    
+}
+.home_page_button{
+    position: absolute;
+    left: 47.5%;
+    top: 28px;
+    
+}
+.lonewolf_btn{
+    left: 48%;
+}
+.you_have_entered h1{
+    font-family: var(--Abrila-font);
+    color: #fff;
+	text-shadow: 0 6px 10px #000;
+}
+.you_have_entered h3{
+    color: #fff;
+    font-family: var(--Opensans-italic);
+}
+.you_have_entered h4{
+    color: #fff;
+    font-family: var(--Myridpro-font);
+    font-size: 32px;
+    margin-top: 60px;
+}
+/* you-have-entered-css-end */
+
+
+
+
+
+/* .five_bottles-section */
+.five_bottles-section h1{
+font-family: var(--Abrila-font);
+padding-top: 55px;
+
+}
+.five_bottles-section .bootel_img{
+    margin-top: 80px;
+}
+.five_bottles-section h2{
+font-family: var(--Myridpro-font);
+margin-top: 40px;
+font-size:48px;
+letter-spacing: 3px;
+
+}
+.five_bottles-section h3{
+font-family: var(--Opensans-italic);
+font-size:48px;
+}
+.five_bottles-section .unfollow_img{
+    margin-top: 30px;
+}
+.five_bottle_before::before {
+       content: '#UNFOLLOW';
+    position: absolute;
+    font-size: 170px;
+    font-weight: bold;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, 0);
+    text-shadow: 1px 1px 0px #000000;
+    font-family: var(--Opensans-italic);
+    color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    mix-blend-mode: darken;
+    letter-spacing: 26px;
+}
+.five_bottels{
+    position: relative;
+
+}
+.custom_width{
+    width: 29%!important;
+}
+.mobile_carousel{
+    display: none;
+    margin-top: 80px;
+}
+.bottel_1{
+    margin-top: 120px;
+}
+/* slick_slider_css */
+/* Defines the width of the carousel and centers it on the page */
+
+/* .five_bottles-section-end*/
+
+
+
+/* animated-bottle-section */
+.mild_lagar_Section{
+    background: url('../images/banner-bg.jpg') no-repeat;
+    background-size:cover;
+    margin-top: 60px;
+    padding:120px 0px;
+}
+.animated_bottle img{
+    width: 20% ;
+    margin-top: 90px;
+}
+.bottle_one img{
+    transform: rotate(29deg);
+}
+.bottle_three img{
+    transform: rotate(-29deg);
+
+}
+
+.mild_lagar_Section h1{
+    color: #4fa4b6;
+    font-family: var(--Abrila-font);
+    margin-top: 0px;
+}
+.mild_lagar_Section h5{
+    color: white;
+    font-family: var(--Opensans-italic);
+}
+.know_more_button{
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+/* animated-bottle-css-end */
+
+/* lone-wolf-brewing-css */
+
+ 
+
+.lone_wolf_brewing_left h1{
+
+    color: #4fa4b6;
+    font-family: var(--Abrila-font);
+}
+.lone_wolf_brewing_left .wave-1{
+    margin-top: 57px;
+}
+.lone_wolf_brewing_left .head-1{
+    margin-top: 40px;
+    font-family: var(--Myridpro-font);
+}
+.lone_wolf_brewing_left .wave-2{
+    margin-top: 43px;
+
+}
+
+
+@keyframes wave {
+    0% { 
+      left: -80px; 
+    }
+    100% { 
+      left: -30px; 
+    }
+  }
+  
+  .wave-2 {
+    width: 100px;
+
+    
+    overflow: hidden;
+  }
+  .wave-2 svg {
+    position: relative;
+    left: -50px;
+    width: 200px;
+    height: 30px;
+    animation: wave 2s linear infinite;
+  }
+@keyframes wave {
+    0% { 
+      left: -80px; 
+    }
+    100% { 
+      left: -0px; 
+    }
+  }
+  
+  .wave-1 {
+    width: 130px;
+
+    
+    overflow: hidden;
+  }
+  .wave-1 svg {
+    position: relative;
+    left: -50px;
+    width: 200px;
+    height: 30px;
+    animation: wave 2s linear infinite;
+  }
+
+  
+  .wave-3 {
+    width: 100px;
+
+    
+    overflow: hidden;
+  }
+  .wave-3 svg {
+    position: relative;
+    left: -50px;
+    width: 200px;
+    height: 30px;
+    animation: wave 2s linear infinite;
+  }
+
+  
+  .waves {
+    width: 100px;
+
+    
+    overflow: hidden;
+  }
+  .waves svg {
+    position: relative;
+    left: -50px;
+    width: 200px;
+    height: 30px;
+    animation: wave 2s linear infinite;
+  }
+
+.wave-2 img{
+    width: 35%;
+}
+.lone_wolf_brewing_left .waves{
+    margin-top: 11px;
+}
+.waves img{
+    width: 25%;
+}
+.lone_wolf_brewing_left .head-2{
+    margin-top: 67px;
+    font-family: var(--Myridpro-font);
+}
+.lone_wolf_brewing_left .wave-3{
+    margin-top: 46px;
+}
+.lone_wolf_brewing_left .head-3{
+    margin-top: 50px;
+    font-family: var(--Myridpro-font);
+}
+.lone_wolf_brewing_left h4{
+    font-family: var(--Myridpro-font);
+    margin-top: 50px;
+}
+.lone_wolf_brewing{
+    background:  url('../images/section-4-bg.png')  no-repeat center  ;
+    background-size: contain;
+    padding: 240px 0px 159px 0px;
+	overflow:hidden;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:before {
+    background: url(../images/beer-top-shape.png) no-repeat top left / contain;
+    width: 100%;
+    content: '';
+       height: 100%;
+    top: -46px;
+    left: -116px;
+    position: absolute;
+    background-size: 47%;
+ 
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p img{z-index:999;}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+       opacity: 0.42;
+    background: url(../images/beer-bottom-shape.png) no-repeat bottom right / contain;
+    width: 100%;
+    content: '';
+    height: 100%;
+    bottom: -130px;
+    right: -101px;
+    position: absolute;
+    background-size: 50%;
+ 
+}
+/* lone-wolf-brewing-css--end */
+
+/* contact-us-section */
+.contact-us-section{
+    background: url('../images/bottom-Bg.jpg') no-repeat  ;
+    background-size: cover;
+    padding: 50px 0px;
+    margin-top: 0px;
+}
+.contact_us_main ul li {
+list-style: none;
+
+
+
+}
+.contact_us_main h1{
+    color: white;
+    font-family: var(--Opensans-italic);
+}
+.contact_us_main h2{
+    color: white;
+    font-family:var(--Myridpro-font);
+}
+.contact_us_main h3{
+    color: white;
+    font-family:var(--OpenSans-font);
+}
+.contact_us_main p ,a{
+    color: white;
+    font-family:var(--Myridpro-font);
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+.contact_us_main a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.footer_section{
+    background: url('../images/Footer-Bg.jpg') no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.footer_section h5{
+    color: white;
+    font-size: 17px;
+    font-family: var(--OpenSans-font);
+}
+.footer_section ul li{
+
+    list-style: none;
+    color: white;
+}
+
+/* page-2-css */
+
+/* all_buzz_section-css */
+.all_buzz_section{
+    background: url('../images/page-2-banner.png') no-repeat top center;
+    background-size: cover;
+    padding-bottom: 74px;
+  
+}
+.buzz_section_left{
+    margin-top: 110px;
+}
+.all_buzz_section h1{
+    font-family: var(--Abrila-font);
+
+}
+.all_buzz_section h3{
+    font-family: var(--OpenSans-font);
+}
+.all_buzz_section p{
+    font-family: var(--Myridpro-font);
+}
+.all_buzz_section_right{
+    position: relative;
+    z-index: 2;
+    margin-top: 55px;
+}
+.all_buzz_before_right::before{
+    content: 'UNLEASH';
+    font-size: 120px;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 173px;
+    right: -64px;
+    color: #e1e1e1;
+    font-family: var(--Opensans-italic);
+    z-index: -1;
+    
+}
+.all_buzz_before_right img{
+    width: 67%;
+}
+
+.Want_bold_and_strong h1{
+    margin-top: 101px;
+    font-size: 34px;
+    font-family: var(--OpenSans-font);
+    padding-bottom: 80px;
+}
+.strong_bottle_can img{
+    width: 32%;
+}
+.last_Section{
+    background: url('../images/footer-Bg.png') no-repeat left 54px;
+    background-size: cover;
+    margin-top: 110px;
+
+}
+.last_Section{
+    position: relative;
+}
+.last_Section .mid_logo{
+    margin-top: 75px;
+}
+.last_Section_left{
+    width: 107px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    height: 107px;
+    padding: 40px 0px;
+     margin: 0 auto;
+}
+.last_Section_left h3{
+    font-size: 21px;
+
+}
+
+.last_section_image_left img {
+    margin-top: 106px;
+    width: 164%;
+    margin-left: -46px;
+}
+.last_Section_right_image img{
+    width: 71px;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+.img-can img {
+    width: 45%;
+    margin-top: 138px;
+}
+.last_Section_right_image span{
+    font-size: 23px;
+}
+.last_section_right{
+    margin-top: 40px;
+}
+.last_section_before::before{
+    content: 'UNLEASH';
+    position: absolute;
+    color: #e1e1e1;
+    font-size: 220px;
+    font-family: var(--Opensans-italic);
+    bottom: 0px;
+    z-index: -1;
+    left: 11%;
+    
+}
+.page_2_bottom_btn{
+    top: 26px;
+}
+.page_2_bottom_btn_two{
+    z-index: 2;
+    top: 96px;
+}
+/* page-3-css-start */
+.a_light_section
+{
+    background: url('../images/page-2-banner.png') no-repeat top center;
+    background-size: cover;
+    padding-bottom: 73px;
+  
+}
+.a_light_section h1{
+    font-family: var(--Abrila-font);
+    color: #4fa4b6;
+    font-size: 60px;
+
+}
+.a_light_section h3{
+    font-family:var(--OpenSans-font);
+    color: #4fa4b6;
+    font-size: 32px;
+
+}
+.light_section_left{
+    margin-top: 110px;
+}
+.light_before_right::before{
+    content: 'UNPLUG';
+    font-size: 120px;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 185px;
+    right: -38px;
+    color: #e1e1e1;
+    font-family: var(--Opensans-italic);
+    z-index: -1;
+    
+}
+.light_before_right img{
+    width: 67%;
+}
+.LOW_ON_CALORIES h3{
+    margin-top: 101px;
+    font-size: 34px;
+    font-family: var(--OpenSans-font);
+    padding-bottom: 80px;
+    color: #4fa4b6;
+}
+.a_light_section_right{
+    position: relative;
+    z-index: 2;
+    margin-top: 55px;
+}
+.mild_bottle_can img{
+    width: 32%;
+}
+.lite_last_section_before::before{
+    content: 'UNPLUG';
+    position: absolute;
+    color: #e1e1e1;
+    font-size: 272px;
+    letter-spacing: 34px;
+    font-family: var(--Opensans-italic);
+    bottom: 0px;
+    z-index: -1;
+    left: 3%;
+}
+.mild_last_Section_left{
+    width: 107px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    height: 107px;
+    padding: 40px 0px;
+     margin: 0 auto;
+}
+.mild_last_section_image_left img {
+    margin-top: 91px;
+    width: 181%;
+    margin-left: -46px;
+}
+.mild_last_Section_right_image{
+    text-align: center;
+}
+.mild_last_Section_right_image img{
+    width: 71px;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+.mild_last_Section_right_image span{
+    font-size: 23px;
+}
+.mild_img-can img{
+    width: 50%;
+    margin-top: 121px;
+   
+}
+.mild_last_section_right{
+    margin-top: 59px;
+    text-align: center;
+}
+.mild_small_bottle img {
+    width: 48%;
+    margin-top: 114px;
+}
+.mild_small_bottle{
+    text-align: center;
+}
+.Alcohol_volume h4{
+    color: #4fa4b6;
+    font-family: var(--Opensans-italic);
+}
+.ingredients h4{
+    color: #4fa4b6;
+    font-family: var(--Opensans-italic);
+}
+.Alcohol_volume{
+    position: relative;
+}
+.Characteristics{
+  margin-top: 80%;
+    text-align: end;
+  
+}
+.strong_can img{
+    margin-top: 77px;
+}
+.bottle_can img{
+    margin-top: 77px;
+}
+
+/* page-3-css-end */
+
+
+@media screen and (min-width:1024px) and (max-width:1367px){
+	.section-before::before {
+       font-size:240px;
+    letter-spacing: 26px;
+	}
+	.wolf svg{width:700px;}
+		.section-before::after {
+		   font-size: 240px;
+	}
+	.Age_is_just_number h1 {
+    font-size: 30px;
+}
+.five_bottle_before::before{font-size:125px; }
+.Age_is_just_number P {
+    font-size: 20px;
+    margin: 10px auto 10px;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:before {
+   top: -27px;
+    left: -66px;
+    background-size: 33%;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+    bottom: -82px;
+    right: -80px;
+    background-size: 40%;
+}
+.lone_wolf_brewing {
+    padding: 100px 0px 64px 0px;
+}
+}
+
+@media screen and (max-width:992px){
+	.section-before::before {
+       font-size:210px;
+	   letter-spacing:10px;
+	}
+	.wolf svg{width:600px;}
+		.section-before::after {
+		   font-size:210px;
+		   
+	   letter-spacing:30px;
+	}
+	.Age_is_just_number h1 {
+    font-size: 25px;
+}
+.Number-form .custom_form , .Number-form .input_custom_form, .Number-form .custom_enter_button{
+    padding: 10px 16px;
+}
+.five_bottle_before::before{font-size:70px;
+	   letter-spacing:20px; }
+.Age_is_just_number p {
+    font-size: 16px;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:before {
+   top: -27px;
+    left: -66px;
+    background-size: 30%;
+}
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+     background-size: 36%;
+}
+.Number-form .custom_enter_button{
+        margin-left: 0px;    display: block;    width: 100%;
+    }
+	
+}
+@media screen and (max-width:768px){
+	.wolf svg {
+    width: 700px;
+}
+.section-before::before {
+    font-size: 200px;
+	bottom: auto;
+    letter-spacing:20px;
+
+}
+.section-before::after {
+    font-size: 200px;
+    letter-spacing: 45px;
+	    bottom: -11%;
+}
+.section_1_bg {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.lone_wolf_brewing {
+    padding:0px 10px 0px;
+}
+	.lonewolf_btn{
+
+	left: 43% !important;
+	top: 16px !important;
+	}
+    .waves{
+        display: none;
+    }
+
+    .desktop_view{
+        display: none;
+    }
+    .mobile_carousel{
+        display: block;
+    }
+.mobile_nav{
+    display: block;
+}
+.desktop_nav{
+    display: none;
+}
+
+.Age_is_just_number h1{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.Age_is_just_number P{
+    font-size: 16px;
+}
+.main-logo img{
+  width: 14%;
+}
+
+.nav_logo img{
+    width: 45% !important;
+}
+.custom_toggler:focus{
+    box-shadow: none;
+}
+
+.you_have_entered h1{
+    font-size: 20px;
+}
+.you_have_entered h4 {
+    color: #fff;
+    font-family: var(--Myridpro-font);
+    font-size: 16px;
+    margin-top: 14px;
+
+}
+.you_have_entered h3 {
+  font-size: 15px;
+  
+
+}
+.down_btn {
+ 
+    left: 33%;
+    top: 28px;
+}
+
+.five_bottles-section h1 {
+  
+    padding-top: 0px;
+}
+.five_bottles-section .bootel_img {
+    margin-top: 17px;
+}
+.entered_section_logo img{
+    width: 16%
+}
+.down_btn  img{
+    width: 34% !important;
+}
+.five_bottles-section h2{
+    font-size: 18px;
+}
+.five_bottles-section h3{
+    font-size: 17px;
+}
+.unfollow_img img{
+    width: 35%;
+}
+
+.mild_lagar_Section h1{
+
+    font-size: 26px;
+    margin-top: 32px;
+}
+
+.lone_wolf_brewing_container {
+     background: none !important;
+     padding: 41px 0px;
+ 
+}
+.lone_wolf_brewing_left h1{
+    text-align: center;
+    font-size: 26px;
+}
+.animated_bottle img {
+    width: 13%;
+    margin-top: 26px;
+}
+.lone_wolf_brewing_left .head-1{
+    margin-top: 11px;
+} 
+.lone_wolf_brewing_left .head-3 {
+    margin-top: 44px ;
+    font-family: var(--Myridpro-font);
+  
+}
+.lone_wolf_brewing_left .wave-1 {
+    margin-top: 34px ;
+
+}
+.lone_wolf_brewing_left .head-2 {
+    margin-top: 60px ;
+    font-family: var(--Myridpro-font);
+   
+}
+.lone_wolf_brewing_left .wave-2 {
+    margin-top: 39px ;
+  
+}
+.lone_wolf_brewing_left .wave-3{
+    margin-top: 27px ;
+}
+.lone_wolf_brewing_left h4{
+    margin-top: 27px;
+}
+.lone_wolf_brewing_left .waves{
+    margin-top:8px;
+}
+.lone_wolf_brewing_right{
+    margin-top: 15px;
+}
+.mobile_center{
+    text-align: center;
+}
+.contact-us-section {
+  
+    margin-top: -21px;
+}
+.contact_us_main p,a{
+    font-size: 22px;
+}
+.contact_us_main h1{
+    font-size: 26px;
+}
+.contact_us_main h2{
+    font-size: 20px;
+}
+.contact_us_main h3{
+    font-size: 20px;
+}
+.footer_logo img{
+    width: 30% !important;
+
+}
+.footer_section{
+    text-align: center;
+    padding: 25px 0px;
+}
+/* page-2-mobile-responsive */
+
+.buzz_section_left {
+    margin-top: 12px;
+}
+.buzz_Section_logo img{
+    width: 45% ;
+
+}
+.buzz_section_left h1{
+    font-size: 18px;
+}
+.buzz_section_left h3{
+    font-size: 18px;
+}
+.buzz_section_left .buzZ_text{
+    font-size: 14px;
+}
+.all_buzz_section{
+    padding-bottom: 18px;
+}
+
+.all_buzz_section_right {
+    position: relative;
+    z-index: 2;
+    margin-top: 116px;
+}
+.page_2_bottom_btn{
+    left: 43%;
+    top: -12px;
+}
+.Want_bold_and_strong h1 {
+    margin-top: 26px;
+    font-size: 20px;
+  
+    padding-bottom: 10px;
+}
+.Alcohol_volume h4{
+    font-size: 12px;
+}
+.Alcohol_volume p{
+    font-size: 12px;
+}
+.ingredients h4{
+    font-size: 12px;
+}
+.ingredients p{
+    font-size: 12px;
+}
+.ingredients {
+ margin-top: 20px;
+ margin-left: -10px;
+}
+.Characteristics {
+    text-align: start; 
+    margin-top: 27%;
+}
+.last_Section {
+
+    margin-top: 19px;
+}
+.page_2_bottom_btn_two{
+    left: 43%;
+    top: 12px;
+}
+.mid_logo img{
+    width: 33%;
+}
+.last_Section_left {
+    width: 53px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    height: 55px;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+.last_Section_left h3 {
+    font-size: 16px;
+}
+.last_section_image_left img {
+    margin-top: 41px;
+
+    margin-left: -16px;
+}
+.last_Section_right_image img {
+    width: 36px;
+
+}
+.last_Section_right_image span {
+    font-size: 16px;
+}
+.img-can img {
+
+    margin-top: 38px;
+    width: 51% ;
+}
+.last_Section .mid_logo {
+    margin-top: 33px;
+}
+.strong_can img {
+    margin-top: 26px ;
+}
+/* page-3-mobile-responsive-css */
+.a_light_section h3 {
+  
+
+    font-size: 18px;
+}
+.a_light_section h1 {
+
+    font-size: 18px;
+}
+.a_light_section .lite_text {
+
+    font-size: 14px;
+}
+.light_section_left {
+    margin-top: 12px;
+}
+
+.LOW_ON_CALORIES h3 {
+    margin-top: 27px;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+}
+.mild_last_Section_left {
+    width: 47px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    height: 47px;
+    padding: 19px 0px;
+    margin: 0 auto;
+}
+.mild_last_section_image_left img {
+    margin-top: 42px ;
+    width: 124% ;
+    margin-left: -5px;
+}
+.mild_last_section_image_left h3{
+    font-size: 10px;
+}
+.mild_img-can img {
+    width: 45% ;
+    margin-top: 28px ;
+}
+.mild_last_Section_right_image img {
+    width: 26px;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+.mild_last_Section_right_image span {
+    font-size: 10px;
+}
+.mild_small_bottle img {
+    width: 48%;
+    margin-top: 56px;
+}
+
+.mild_last_Section_left h3{
+    font-size: 10px;
+}
+.bottle_can img {
+    margin-top: 23px;
+}
+.home_page_button{
+    left: 43%;
+}
+
+.five_bottle_before::before {
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+
+
+
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:before ,
+.lone_wolf_brewing_container .lone_wolf_brewing_right p:after {
+  content:none;
+}
+}
+@media screen and (max-width:567px){
+	.wolf svg {
+    width: 450px;
+}
+.five_bottle_before::before {
+    font-size: 40px;
+}
+.five_bottle_before::before {
+    font-size: 36px;
+	left:60%;
+}
+.section-before::before {
+    font-size: 150px;
+    letter-spacing: 10px;
+    bottom: auto;
+}
+.section-before::after {
+    font-size: 150px;
+    letter-spacing: 10px;
+}
+.section_1_bg {
+    padding-top: 16px;
+    padding-bottom: 51px;
+}
+}
+@media screen and (max-width:414px){
+	.wolf svg {
+    width: 350px;
+}
+.Age_is_just_number P {
+    font-size: 24px;
+}
+.Age_is_just_number h1 {
+    font-size: 17px;
+}
+.section-before::before {
+    font-size: 90px;
+    letter-spacing: 10px;
+    bottom: auto;
+}
+.section-before::after {
+    font-size: 90px;
+    letter-spacing: 10px;
+    bottom: 49%;
+}
+.section_1_bg {
+    padding-bottom: 20px;
+}
+.five_bottle_before::before {
+    font-size: 32px;
+    left: 50%;
+}
+.contact_us_main p, a {
+    font-size: 18px;
+}
+.contact_us_main p {
+	display:block;
+}
+.contact_us_main p.divider{display:none!important;}
+.contact_us_main h1 {
+    font-size: 24px;
+}
+}
+
+
+@media screen and (min-width:552px) and (max-width:1023px){
+
+ 
+    .desktop_view{
+        display: none;
+    }
+    .mobile_carousel{
+        display: block;
+    }
+    .lone_wolf_brewing_left .wave-2 {
+        margin-top: 47px ;
+    }
+    .mobile_nav{
+        display: block;
+    }
+    .desktop_nav{
+        display: none;
+    }
+    .nav_logo img{
+        width: 47% !important;
+    }
+    .down_btn {
+    
+        left: 41%;
+        top: 90px;
+    }
+    .home_page_button{
+   left: 46%;
+   top: 38px;
+    }
+
+
+    .you_have_entered h4{
+        margin-top: 26px;
+    }
+    .entered_section_logo img{
+        width: 25%;
+    }
+    
+    .you_have_entered {
+        background: url('../images/Banner.jpg') no-repeat;
+        background-size: cover;
+        padding-top: 95px;
+        padding-bottom: 120px;
+    }
+    .five_bottles-section h1 {
+   
+        padding-top: 94px;
+    }
+    .lone_wolf_brewing_container {
+         background:none  ;
+        background-size: 59%;
+         padding-bottom: 0px;
+         padding-top: 70px;
+    }
+    .lone_wolf_brewing h1{
+        text-align: center;
+    }
+    .mobile_center{
+        text-align: center;
+    }
+    .lone_wolf_brewing_right{
+        margin-top: 30px;
+    }
+    .contact-us-section {
+        background-size: cover;
+        padding: 50px 0px;
+        margin-top: 37px;
+    }
+    
+    /* page-2-media-responsive-css */
+    .page_2_bottom_btn{
+        left: 45%;
+        top: 32px;
+    }
+    .all_buzz_before_right::before {
+        content: 'UNLEASH';
+        font-size: 89px;
+        position: absolute;
+        transform: rotate(-90deg);
+        top: 152px;
+        right: -29px;
+        color: #e1e1e1;
+        font-family: var(--Opensans-italic);
+        z-index: -1;
+    }
+    .last_section_before::before {
+        content: 'UNLEASH';
+        position: absolute;
+        color: #e1e1e1;
+        font-size: 162px !important;
+        font-family: var(--Opensans-italic);
+        bottom: 0px;
+        z-index: -1;
+        left: 2% ;
+    }
+    .img-can img {
+        width: 51% !important;
+        margin-top: 105px;
+    }
+    .page_2_bottom_btn_two{
+        left: 45%;
+        top: 100px;
+    }
+    .strong_can img {
+        margin-top: 50px ;
+    }
+    /* page-3-mobile-responsive-css */
+    .lite_last_section_before::before {
+        content: 'UNPLUG';
+        position: absolute;
+        color: #e1e1e1;
+        font-size: 173px ;
+        letter-spacing: 8px;
+        font-family: var(--Opensans-italic);
+        bottom: 0px;
+        z-index: -1;
+        left: 2% ;
+    }
+    .light_before_right::before {
+        content: 'UNPLUG';
+        font-size: 89px;
+        position: absolute;
+        transform: rotate(-90deg);
+        top: 163px;
+        right: -13px;
+        color: #e1e1e1;
+        font-family: var(--Opensans-italic);
+        z-index: -1;
+    }
+    .bottle_can img {
+        margin-top: 48px;
+    }
+    .mild_small_bottle img {
+        width: 55% !important;
+        margin-top: 70px;
+    }
+    .mild_last_section_image_left img {
+        margin-top: 91px;
+        width: 121% ;
+        margin-left: -19px;
+    }
+    .mild_img-can img {
+        width: 45% ;
+        margin-top: 121px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1025px)
+{
+    .lone_wolf_brewing_left .wave-2 {
+        margin-top: 64px;
+    }
+    .lone_wolf_brewing_left .wave-3 {
+        margin-top: 57px;
+    }
+    .lone_wolf_brewing_left .head-2 {
+        margin-top: 82px;
+    
+    }
+    .lone_wolf_brewing_left .wave-1 {
+        margin-top: 75px;
+    }
+    .lone_wolf_brewing_left .head-3 {
+        margin-top: 63px;
+   
+    }
+    /* .lone_wolf_brewing { */
+        /* background: url(../images/Beer-Bg-shape.png) no-repeat 89% 152px; */
+        /* background-size: 52%; */
+    /* } */
+
+    .img-can img {
+        width: 57%;
+        margin-top: 114px;
+    }
+
+
+    .mild_small_bottle img {
+        width: 55%;
+        margin-top: 123px;
+    }
+    .mild_last_section_image_left img {
+        margin-top: 109px;
+        width: 169%;
+        margin-left: -46px;
+    }
+    .mild_img-can img {
+        width: 58%;
+        margin-top: 121px;
+    }
+  
+
+
+    .bottel_1 {
+        margin-top: 54px;
+    }
+    .section_1_bg {
+        background: url('../images/BG.jpg') no-repeat top center;
+        background-size: cover;
+        padding-top: 79px;
+        padding-bottom: 119px;
+    }
+}
+

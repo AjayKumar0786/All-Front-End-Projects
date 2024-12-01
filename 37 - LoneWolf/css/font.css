@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'AbrilFatface-Regular';
+    src: url('../Fonts/AbrilFatface-Regular.ttf');
+    src:
+      local('AbrilFatface-Regular'), local('AbrilFatface-Regular'), url('../Fonts/AbrilFatface-Regular.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'MyriadPro-Regular_0';
+    src: url('../Fonts/MyriadPro-Regular_0.otf');
+    src:
+      local('MyriadPro-Regular_0'), local('MyriadPro-Regular_0'), url('../Fonts/MyriadPro-Regular_0.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../Fonts/OpenSans-Bold.ttf');
+    src:
+      local('OpenSans-Bold'), local('OpenSans-Bold'), url('../Fonts/OpenSans-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../Fonts/OpenSans-BoldItalic.ttf');
+    src:
+      local('OpenSans-BoldItalic'), local('OpenSans-BoldItalic'), url('../Fonts/OpenSans-BoldItalic.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'arial';
+    src: url('../Fonts/arial.ttf');
+    src:
+      local('arial'), local('arial'), url('../Fonts/arial.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../Fonts/Helvetica.ttf');
+    src:
+      local('Helvetica'), local('Helvetica'), url('../Fonts/Helvetica.ttf') format('truetype');
+  }

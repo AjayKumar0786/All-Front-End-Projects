@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+.ml2 {
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.all_buzz_section h1.ml2 {
+  transform: rotate(-90deg);
+  color: #B7B7B7;
+  font-size: 9em;
+  white-space: nowrap;
+  position: absolute;
+
+	width: 100px;
+    top: 500px; z-index: -1
+}
+@media screen and (max-width:1024px) {
+.all_buzz_section h1.ml2 {
+    transform: rotate(-90deg);
+    color: #B7B7B7;
+    font-size: 6.5em;
+    white-space: nowrap;
+    position: absolute;
+    width: 100px;
+    top: 340px;
+    z-index: -1;
+}
+}
+
+@media screen and (max-width:768px) {
+	
+	.all_buzz_section h1.ml2 {
+	font-size: 2.70em;
+    top: 144px;
+    width: 50px;
+	}
+	
+	
+}

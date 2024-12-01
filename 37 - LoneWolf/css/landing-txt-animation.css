@@ -1,0 +1,184 @@
+
+
+h1.fadeIn span{
+font-size: 220px;
+    display: block;
+    letter-spacing: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    padding-top: 14px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 135px;
+	
+  }
+h1.fadeIn{margin-top:70px; margin-top:11px;}
+h2.fadeIn span {
+    font-size: 220px;
+    display: block;
+    letter-spacing: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    padding-top: 0px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 0; 
+	position: relative;
+    padding-bottom: 37px;
+	
+}
+	
+.section_1_bg{
+overflow:hidden;
+}
+.lone, .lone1, .lone2, .lone3{
+	opacity:0;
+	 z-index:1;  position:relative;
+	height: 30px;
+    overflow: hidden;
+	line-height:90px; 
+}
+.rlone, .rlone1, .rlone2, .rlone3{
+	opacity:0;
+	 z-index:1;  position:relative;
+	height: 30px;
+    overflow: hidden;
+	line-height:90px; 
+}
+
+.lone::after,  
+.lone1::after,  
+.lone2::after,  
+.lone3::after,
+.lone4::after {
+		position: absolute;
+		content: '';
+		background-clip: text;
+		width: 100%;
+		height: 99.5%;
+		left: 0;
+		right: 0;
+		top: 0.5%; 
+		bottom:-95%;
+	}
+	
+	
+h2 .rlone::after,  
+h2 .rlone1::after,  
+h2 .rlone2::after,  
+h2 .rlone3::after,
+h2 .rlone4::after {
+		position: absolute;
+		content: '';
+		background-clip: text;
+		width: 100%;
+		height: 99.5%;
+		left: 0;
+		right: 0;
+		top: 0.5%; 
+		bottom:-95%;
+	}
+	span.lone3.last, span.rlone3.last {
+    height: 196px;
+}	 span.rlone3.last strong {
+    top: 0px;
+    line-height: 197px;
+}
+	strong {
+    position: relative;
+    top: -47px;
+}
+/*
+h1.fadeIn span{
+font-size: 220px;
+    display: block;
+    letter-spacing: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    padding-top: 14px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 135px;
+  }
+h2.fadeIn span {
+    font-size: 220px;
+    display: block;
+    letter-spacing: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7a7a7a;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 0; 
+	position: relative;
+    padding-bottom: 37px;
+}
+	
+.section_1_bg{
+    overflow:hidden;
+}
+.lone, .lone1, .lone2, .lone3{
+	opacity:0;
+	 z-index:1;  position:relative;
+	height: 30px;
+    overflow: hidden;
+	line-height:90px; 
+}
+.rlone, .rlone1, .rlone2, .rlone3{
+	opacity:0;
+	 z-index:1;  position:relative;
+	height: 30px;
+    overflow: hidden;
+	line-height:90px; 
+}
+
+.lone::after,  
+.lone1::after,  
+.lone2::after,  
+.lone3::after,
+.lone4::after {
+		position: absolute;
+		content: '';
+		background-clip: text;
+		width: 100%;
+		height: 99.5%;
+		left: 0;
+		right: 0;
+		top: 0.5%; 
+		bottom:-95%;
+	}
+	
+	
+h2 .rlone::after,  
+h2 .rlone1::after,  
+h2 .rlone2::after,  
+h2 .rlone3::after,
+h2 .rlone4::after {
+		position: absolute;
+		content: '';
+		background-clip: text;
+		width: 100%;
+		height: 99.5%;
+		left: 0;
+		right: 0;
+		top: 0.5%; 
+		bottom:-95%;
+	}
+	span.lone3.last, span.rlone3.last {
+    height: 157px;
+}	 span.rlone3.last strong {
+    top: 0px;
+    line-height: 197px;
+}
+	strong {
+    position: relative;
+    top: -27px;
+}*/

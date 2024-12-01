@@ -1,0 +1,335 @@
+.logo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+.logo .letters {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  ;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.logo .letters g polygon, .letters path {
+  fill: #000;
+  padding: 10px;
+  stroke: #000;
+  stroke-width: 0.2;
+}
+.logo .triggers {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+  padding-top: 80px;
+  padding-left: 65px;
+  margin: 0 auto;
+}
+.triggers span {
+  width: 23px;
+  height: 35px;
+  display: block;
+  background-color: transparent;
+  margin-top: 92px;
+  float: left;
+  margin-right: 2px;
+}
+.triggers span:nth-child(7) {
+  margin-left: 29px;
+}
+.triggers span:nth-child(9) {
+  width: 32px;
+}
+.wolf {
+   width: 252px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+
+
+#Layer_2 {
+  visibility: hidden;
+
+}
+  
+  #poligono-146-izq {
+    animation: slide-abajo 0.9s 0.4s forwards;
+  }
+  #poligono-147-izq {
+    animation: slide-arriba 0.9s 2s forwards;
+  }
+  #poligono-189-izq {
+    animation:  slide-izq 0.9s 2.1s forwards;
+    
+  }
+ 
+
+  #poligono-173-izq {
+    animation: slide-esquina-abajo 0.9s 0.8s forwards;
+  }
+  #poligono-175-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.8s forwards;
+  }
+  #poligono-178-izq {
+    animation: slide-esquina-arriba-der 0.9s 3.3s forwards;
+  }
+  #poligono-176-izq {
+    animation: slide-esquina-abajo 0.9s 2.5s forwards;
+  }
+  #poligono-177-izq {
+    animation: slide-izq 0.9s 2.5s forwards;
+  }
+  #poligono-169-izq {
+    animation: slide-arriba 0.9s 2.2s forwards;
+  }
+  #poligono-168-izq {
+    animation: slide-izq 0.9s 2.4s forwards;
+  }
+  #poligono-168-izq_1_ {
+    animation: slide-arriba 0.9s 2.9s forwards;
+  }
+  #poligono-165-izq {
+    animation: slide-izq  0.9s 3.5s forwards;
+  }
+  #poligono-152-izq {
+    animation: slide-arriba 0.9s 3.2s forwards;
+  }
+  #poligono-151-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.2s forwards;
+  }
+  #poligono-150-izq {
+    animation: slide-abajo 0.9s 2.3s forwards;
+  }
+  #poligono-148-izq {
+    animation: slide-abajo 0.9s 2.4s forwards;
+  }
+  #poligono-149-izq {
+    animation: lide-esquina-abajo 0.9s 1.9s forwards;
+  }
+  #poligono-157-izq {
+    animation: slide-esquina-abajo 0.9s 1.83s forwards;
+  }
+  #poligono-164-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.8s forwards;
+  }
+  #poligono-156-izq {
+    animation:slide-esquina-arriba-der 0.9s 2s forwards;
+  }
+  #poligono-155-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.9s forwards;
+  }
+  #poligono-154-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.1s forwards;
+  }
+  #poligono-153-izq {
+    animation: slide-esquina-arriba-der 0.9s 2s forwards;
+  }
+  #poligono-161-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.4s forwards;
+  }
+  #poligono-160-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.2s forwards;
+  }
+  #poligono-158-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.8s forwards;
+  }
+  #poligono-159-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.6s forwards;
+  }
+  #poligono-171-izq {
+    animation: slide-esquina-arriba-der 0.9s 3s forwards;
+  }
+  #poligono-172-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.52s forwards;
+  }
+  #poligono-170-izq {
+    animation:slide-esquina-arriba-der 0.9s 1.61s forwards;
+  }
+  #poligono-167-izq {
+    animation:slide-esquina-arriba-der 0.9s 1.5s forwards;
+  }
+  #poligono-136-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.7s forwards;
+  }
+  #poligono-135-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.41s forwards;
+  }
+  #poligono-166-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.52s forwards;
+  }
+  #poligono-121-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.42s forwards;
+  }
+  #poligono-18-izq {
+    animation: slide-esquina-abajo 0.9s 1.8s forwards;
+  }
+  #poligono-17-izq {
+    animation: slide-esquina-arriba-der 0.9s 2s forwards;
+  }
+  #poligono-140-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.3s forwards;
+  }
+  #poligono-142-izq_1_ {
+    animation: slide-esquina-arriba-der 0.9s 1.9s forwards;
+  }
+  #poligono-137-izq {
+    animation: slide-esquina-arriba-der 0.9s 2s forwards;
+  }
+  #poligono-138-izq {
+    animation: slide-esquina-abajo 0.9s 1.9s forwards;
+  }
+  #poligono-139-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.85s forwards;
+  }
+  #poligono-15-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.6s forwards;
+  }
+  #poligono-13-izq {
+    animation: slide-esquina-arriba-der 0.9s 1.9s forwards;
+  }
+  #poligono-14-izq {
+    animation: slide-esquina-abajo 0.9s 2.3s forwards;
+  }
+  #poligono-1-izq {
+    animation: slide-arriba 0.9s 1.5s forwards;
+  }
+  #poligono-2-izq {
+    animation: slide-arriba  0.9s 2.1s forwards;
+  }
+  #poligono-3-izq {
+    animation: slide-esquina-abajo 0.9s 1.7s forwards;
+  }
+  #poligono-4-izq {
+    animation:  slide-esquina-arriba-der 0.9s 2.2s forwards;
+  }
+  #poligono-23-izq {
+    animation: slide-esquina-abajo 0.9s 2.7s forwards;
+  }
+  #poligono-12-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.5s forwards;
+  }#poligono-16-izq {
+    animation: slide-arriba 0.9s 2s forwards;
+  }
+  #poligono-5-izq {
+    animation: slide-esquina-abajo 0.9s 2.6s forwards;
+  }
+  #poligono-6-izq {
+    animation: slide-esquina-arriba-der  0.9s 2.9s forwards;
+  }
+  #poligono-7-izq {
+    animation:slide-esquina-arriba-der 0.9s 2.4s forwards;
+  }
+  #poligono-8-izq {
+    animation: slide-esquina-abajo 0.9s 2s forwards;
+  }
+  #poligono-12-izq {
+    animation: slide-arriba 0.9s 2.2s forwards;
+  }
+  #poligono-142-izq_1_ {
+    animation: slide-esquina-arriba-der 0.9s 2s forwards;
+  }
+  #poligono-11-izq {
+    animation: slide-izq 0.9s 2.6s forwards;
+  }
+  #poligono-10-izq {
+    animation: slide-esquina-arriba-der 0.9s 2.2s forwards;
+  }
+
+
+  
+ 
+/* from-left */
+  @keyframes slide-izq {
+    from {
+   
+      transform: translate(-1000px, 0px);
+    }
+    to {
+     
+      transform: translate(0px, 0px);
+      visibility: visible;
+    }
+  }
+/* from_top_left */
+  @keyframes slide-arriba {
+    from {
+      transform: translate(0px, -1000px);
+    }
+    to {
+      transform: translate(0px, 0px);
+      visibility: visible;
+    }
+  }
+
+  /* from-bottom */
+  @keyframes slide-abajo { 
+    from {
+      transform: translate(0px, 1000px);
+    }
+    to {
+      transform: translate(0px, 0px);
+      visibility: visible;
+    }
+  }
+/* form-front */
+  @keyframes slide-esquina-abajo {
+    from {
+      transform: translate(150px, 200px);
+    }
+    to {
+      transform: translate(0px, 0px);
+      visibility: visible;
+    }
+  }
+
+  /* from-top */
+  @keyframes slide-esquina-arriba-izq {
+    from {
+      transform: translate(-150px, -200px);
+    }
+    to {
+      transform: translate(0px, 0px);
+      visibility: visible;
+    }
+  }
+/* from-right-top */
+  @keyframes slide-esquina-arriba-der {
+    from {
+      right: 550px;
+      
+      transform: translate(150px, -200px);
+    }
+    to {
+      right: 0px;
+      transform: translate(0px, 0px);
+      visibility: visible;
+    }
+  }
+  @media screen and (max-width:551px){
+    .wolf {
+        width: 120px;
+        height: 72px;
+        margin: 0 auto;
+    }
+  }
