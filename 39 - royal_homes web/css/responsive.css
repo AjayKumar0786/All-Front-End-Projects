@@ -1,0 +1,116 @@
+@media  screen and (max-width:551px) {
+    .custom-navvsss{
+        position:absolute ;
+        top: 10px;
+        z-index: 999;
+        transition: 0.5s all;
+        margin-left: 9px!important;
+        margin-right: 9px!important;
+        
+    }
+    .custom-navbars{
+        background: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px !important;
+        margin-left: 10px !important;   
+    }
+    .custom-navbars li a{
+
+        color: black !important;
+    }
+    .custom-btn{
+        display: none;
+    }
+    .manufactor-btn{
+        border:none;
+    }
+    .manufactor-btn:focus{
+        box-shadow: none;
+    }
+    .user-login{
+        display: inline;
+    }
+    .user-login{
+
+        margin-right: 20px;
+    }
+    .user-login .user-modify{
+        font-size: 22px;
+        color: white;
+    }
+    .animated-text h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 41px;
+    }
+    .drpdwn{
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .location-margin{
+        margin-top: 18px;
+    }
+    .search-btn{
+        padding-bottom:20px;
+    }
+    .more-btn {
+      
+        border-radius: 6px
+    }
+    .desktopversion{
+        display: none;
+    }
+.mobile-version{
+    display: contents;
+}
+.grid-containers{
+    display: block;
+}
+.work-section {
+    margin-top: 0px;
+    padding-top: 41px;
+    background: #f7f7f7;}
+}
+@media  (min-width:552px) and (max-width:991){
+    .custom-navvsss{
+        position:absolute !important;
+        top: 10px;
+        z-index: 999;
+        transition: 0.5s all;
+        margin-left: 9px!important;
+        margin-right: 9px!important;
+        
+    }
+    .custom-navbars{
+        background: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px !important;
+        margin-left: 10px !important;   
+    }
+    .custom-navbars li a{
+
+        color: black !important;
+    }
+    .custom-btn{
+        display: none;
+    }
+    .manufactor-btn{
+        border:none;
+    }
+    .manufactor-btn:focus{
+        box-shadow: none;
+    }
+    .user-login{
+        display: inline;
+    }
+    .user-login{
+
+        margin-right: 20px;
+    }
+    .user-login .user-modify{
+        font-size: 22px;
+        color: white;
+    }
+}
