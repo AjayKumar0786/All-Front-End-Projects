@@ -1,0 +1,1001 @@
+.top-header{
+    background-color: black;
+}
+.tab-left-link{
+    padding: 5px  !important;
+}
+.tab-active {
+    color: #ca3216;
+}
+.header-social-icons li{
+    display: inline-block;
+    margin-right: 8px;
+   padding:5px 0px;
+  width: 30px;
+   height: 30px;
+   line-height: 18px;
+   border-radius: 50%;
+   text-align: center!important;
+    background: grey;
+    transition: all 0.5s ease;
+  
+}
+.header-social-icons li:hover{
+    background-color: #ca3216;
+    cursor: pointer;
+   
+   
+}
+.active{
+    color: #ca3216 !important;
+
+}
+.mail-icon-tab:hover{
+    color: #ca3216 !important;
+}
+.Log-in-nav-btn{
+    background: #ea5237;
+    padding: 5px 25px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.Log-in-nav-btn:hover{
+    color:white!important;
+    background: #f14b2d;
+    box-shadow: 0px 3px 10px grey;
+}
+.custom-btn:focus {
+    outline: 0;
+    box-shadow:none!important;
+}
+.check-vin-btn:hover{
+background: #e85036;
+}
+.custom-dropdown-menu{
+    border: none !important;
+}
+.navbar-section{
+    background: url(../img/main-banner-bg.png) no-repeat top right;
+    background-size: 53%;
+
+}
+.car-section{
+    padding: 120px 0px 80px;
+}
+.section-1-left h1{
+    font-size: 52px;
+    font-weight: bold;
+
+}
+.section-1-left span{
+    color: #ea5237;
+}
+.us-license{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.free-vin-check h2{
+    font-size: 30px;
+}
+.free-vin-check{
+    background: white;
+    text-align: center;
+    box-shadow: 0px 0px 30px #ccc;
+    border-radius: 25px;
+    padding: 18px 190px;
+    margin-top: 40px;
+
+}
+.search-form{
+    position: relative;
+    margin-top: 30px;
+}
+
+.check-vin-btn{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 7px 25px ;
+    border-radius: 14px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all 0.5s ease;
+}
+.margin-pad{
+    padding: 20px 0px;
+}
+.read-more-btn:hover{
+background: #d52e10;
+}
+.custom-form{
+    border-radius: 14px !important;
+
+}
+.custom-form:focus{
+    box-shadow: none !important;
+}
+.Official-Source h2{
+    font-size: 40px;
+}
+
+.always-checking{
+margin-top: 100px;
+
+}
+.always-checking .checking-box{
+   background-color: white;
+box-shadow: 0px 0px 30px #f1f1f1;
+border-radius: 25px;
+margin-top: 20px;
+
+}
+.always-checking .tab-left{
+    background: #e9e9e9;
+    border-radius: 25px;
+}
+.odometer p{
+    background: url('../img/odometer.png') no-repeat  left  ;
+    padding: 13px 0px 13px 73px;
+    
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.theft p{
+    background: url('../img/theft.png') no-repeat  left  ;
+    padding: 13px 0px 13px 73px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.hidden-damage p{
+    background: url('../img/hidden-damages.png') no-repeat  left  ;
+    padding: 13px 0px 13px 73px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.technical-damage p{
+    background: url('../img/technical.png') no-repeat  left  ;
+    padding: 13px 0px 13px 73px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.car-privously p{
+    background: url('../img/car-previously.png') no-repeat  left  ;
+    padding: 13px 0px 13px 73px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.photos-previously p{
+    background: url('../img/previous-sales.png') no-repeat  left  ;
+    padding: 13px 0px 13px 73px;
+
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.what-customer{
+    margin-top: 120px;
+}
+.testimonial-box{
+
+    background: white;
+    box-shadow: 0px 0px 30px #e6e6e6;
+    position: relative;
+    padding: 60px 20px;
+    margin-top: 20px;
+
+}
+.img-box{
+    position: absolute;
+   top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.customer-say h2{
+    font-size: 40px;
+}
+.our-blog-text h2{
+    font-size: 40px;
+
+}
+.first-blog{
+    background: #f1f3f8;
+    margin-top: 10px;
+
+}
+.read-more-btn{
+    background: #ea5237;
+    padding: 8px 30px;
+    border-radius: 7px;
+
+}
+
+.blog-btn{
+    position: absolute;
+    top: 100%;
+    left: 17%;
+    transform: translate(-50% ,-50%);
+}
+.our-blog-section{
+    margin-top: 120px;
+}
+.blog-content{
+    padding: 10px 30px;
+    position: relative;
+}
+.faq-section{
+    position: relative;
+    padding: 120px 0px;
+    margin-top: 80px;
+    background: url('../img/faq-section.png') no-repeat  left 30px ,url('../img/red-car.png')no-repeat top right ;
+   background-size: 60%, 20%;
+}
+.faq-questions{
+    margin-top: 60px;
+    background-color: white;
+    text-align: center;
+    padding: 60px;
+
+
+
+
+
+
+    box-shadow: 10px 10px 20px #e8e8e8;
+}
+
+.car-bg{
+    background: url('../img/last-section-img.png')no-repeat center ;
+    height: 105vh;
+    background-size: cover;
+    margin-top: -225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social li{
+    display: inline-block;
+    margin-right: 12px;
+
+}
+#footer-vin{
+    margin-top: 40%;
+    box-shadow: none !important;
+}
+#footer {
+    padding-top: 60px;
+}
+#footer .f-title {
+    font-size: 22px;
+    margin: 20px 0 25px;
+	color:#222;
+}
+#footer ul li a{color:#676767; text-decoration:none;}
+#footer p{color:#676767; font-size:14px; line-height:22px; }
+#footer ul li {
+    font-size: 14px;
+	list-style:none;
+	    line-height: 30px;
+}
+.copyright p,
+.copyright a{text-decoration:none; color:#676767; font-size:14px;}
+.copyright {
+    margin-top: 30px;
+    border-top: 1px solid #c9c9c9;
+    padding: 15px 0 10px;
+}
+.connect-links li {
+    position: relative;
+    padding-left: 25px;
+	margin-bottom:8px;
+    padding-right: 20px;
+    background: url(../img/location.png) no-repeat 0px 10px;
+}
+.connect-links li:nth-child(2) {
+    background: url(../img/mob.png) no-repeat 0px 10px;
+}
+.connect-links li:nth-child(3) {
+    background: url(../img/mail-icon2.png) no-repeat 0px 10px;
+}
+#footer ul li:hover a {
+    color: #e54f34;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* login-page-css */
+.login-page{
+    background: url('../img/login-page-bg.png') no-repeat center ;
+    background-size: cover;
+    padding-bottom: 38px;
+
+}
+.login-section{
+    padding: 40px 0px;
+}
+.login-form{
+    background: white;
+    box-shadow: 0px 0px 30px #e8e8e8;
+    padding: 30px 30px 10px;
+}
+
+.login-form h1{
+ font-size: 48px;
+ font-weight: bold;
+}
+.login-form h1 span{
+    color: #8f8f8f;
+}
+.form-field span{
+    color: red;
+}
+.login-btn button{
+    border: none;
+    background: #e95136;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding:10px 0px;
+
+}
+.checkbox{
+    margin-top: 20px;
+    color: #888888;
+}
+.lost-password{
+    margin-top: -24px;
+
+}
+.lost-password a{
+    color: #888888;
+    text-decoration: none;
+}
+.login-with{
+    text-align: center;
+}
+.login-with ul{
+    padding: 0px;
+}
+.login-with ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-copyright{
+margin-top: 0px !important;
+}
+/* end-login-page-css */
+/* blog-page-css */
+.custom-canvas{
+    width: 290px !important;
+    top: 40px !important;
+}
+.hamburger-nav .blog-main-logo{
+margin-top: 7px;
+}
+#main{
+    transition:  .5s;
+}
+.custom-navigation li{
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.custom-navigation li a{
+    text-decoration: none;
+    color: black;
+}
+.blog-user-day span i{
+    color: #e54f34;
+}
+.blog-user-day span{
+    margin-right: 20px;
+}
+.custom-card-blog{
+    border-radius: 11px !important;
+}
+#main .read-more a{
+    text-decoration: none;
+    color:black;
+
+}
+.first-blogs{
+    margin-top: 120px !important;
+}
+.blog-footer{
+    margin-top: 100px;
+}
+#btn-blog{
+    height: 32px;
+    padding:2px 25px;
+    
+}
+/* end-blog-page-css */
+
+/* blog-detail-page */
+.blog-detail-section{
+    margin-top: 90px;
+}
+.blog-detail-left{
+    background: white;
+    box-shadow: 0px 0px 30px #f0f0f0;
+    border-radius: 30px 30px 0px 0px;
+}
+.detail-content{
+
+    padding: 30px;
+}
+.search-box{
+    background: #f5f5f5;
+    padding: 30px;
+}
+.blog-detail-search{
+    position: relative;
+}
+.search-btn{
+    position: absolute;
+    top: 0px;
+    padding: 7px 10px;
+    right: 0px;
+    border: none;
+    background-color: #e85036;
+}
+.search-btn i{
+    color: white;
+}
+.categories-list li{
+    list-style: none;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0px;
+
+}
+.categories-list li:nth-child(6){
+    border-bottom: none;
+}
+.car-bg-blog{
+    background: url('../img/popular-1.png') no-repeat left;
+    padding-left: 108px;
+    margin-top: 22px;
+}
+.car-bg-blog p{
+    font-size: 12px;
+    color: #9c9c9c;
+}
+.blog-tag span button{
+    border: 1px solid #dbd7d7;
+    background: white;
+    margin-right: 10px;
+    padding: 3px 14px;
+    margin-top: 15px;
+
+}
+/* end-blog-detail-page */
+
+/* decorder-page-css */
+.decorder-section{
+    background: url('../img/decorder-bg.png') no-repeat  center;
+    background-size: cover;
+    padding: 50px 0px 90px;
+
+}
+.whats-a-vin-number{
+    margin-top: 80px !important;
+}
+.model-base h3{
+    background-color: #e54e34;
+    padding: 13px 30px;
+    color: white;
+    border-radius: 12px 12px 0px 0px;
+}
+.model-list li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.models-name{
+    margin-top: 20px;
+}
+.last-models{
+
+    border-top:1px solid  #d6d6d6 ;
+}
+.model-base{
+    background: #e8e8e8;
+    padding-bottom: 30px;
+    border-radius: 12px;
+  
+}
+.model-padding{
+    padding: 0px 30px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table>thead {
+   background: #e54e34;
+   color: white;
+
+}
+
+/*end-decorder-css */
+
+/* register-page-css */
+.register-text{
+    font-size:14px ;
+    color: #a0a0a0;
+}
+.login-btn{
+    text-align: center;
+    
+}
+.login-btn a{
+    color: #e54e34;
+    text-decoration: none;
+}
+.custom-dropdown-menu{
+    right: -12px;
+}
+/* plan-page-css */
+.get-a-package h1{
+    font-size: 32px;
+}
+
+.report{
+    border: 1px solid #e7e7e7;
+    border-radius: 15px;
+    background: white;
+    padding: 30px;
+
+
+}
+.card-select a{
+    color: white;
+    background: #ea5137;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 4px 40px;
+
+}
+.card-select a:hover{
+    color: white;
+
+}
+.payment-option{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: white;
+    box-shadow: 0px 0px 30px #ececec;
+    
+    border-radius: 30px;
+    width: 27% !important;
+    padding: 0px !important;
+}
+.payment-content{
+    padding: 30px;
+}
+.each-report li{
+    list-style-image: url('../img/list-image.png');
+    margin-top: 10px;
+}
+.agreement-text label{
+    font-size: 12px;
+
+}
+.total-amount p{
+    font-weight: 500;
+}
+
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.promo-code{
+    margin-top: 100px;
+}
+.promo-code a{
+    color: #989898;
+    text-decoration: none;
+}
+.secure-checkout h5{
+    background: #ec5238;
+    padding:20px;
+    color: white;
+    border-radius:0px 0px 30px 30px ;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.get-a-pacakage-section{
+    position: relative;
+}
+/* dashboard-page */
+.dashboard-section{
+    position: relative;
+}
+.dashboard-col{
+    position: absolute;
+    top: 0;
+    left: -12px;
+}
+.dashboard-right{
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}
+.dashboard-content{
+    background: #e54f34;
+    padding: 30px;
+    
+}
+.dashboard-content h5{
+    color: white;
+
+}
+.dashboard-content p{
+    color: white;
+    font-size: 15px;
+}
+
+.tabcontent {
+    display: none;
+    
+  }
+  .tablinks{
+   
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+ 
+  .custom-tabs{
+    padding: 5px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+  }
+  .tab .active {
+    background-color: #ca3216;
+  }
+  .get-more-btn{
+    background: black;
+    padding: 2px 13px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: -1px;
+    color: white;
+    text-decoration: none;
+}
+.get-btn-box{
+    margin-top: -20px;
+}
+
+.black-box{
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+.black-box .social-link li{
+    display: inline-block;
+    margin-right: 5px;
+
+}
+@media screen and (max-width:551px) {
+    .section-1-left h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;}
+        .section-1-left{
+            text-align: center;
+        }
+        .custom-dropdown-menu{
+            right: 0px;
+        }
+        .free-vin-check {
+            padding: 15px 17px 1px;}
+        .free-vin-check h2 {
+            font-size: 17px;
+        }
+        .us-license {
+            font-size: 14px;
+            font-weight: 500;
+            margin-top: 15px;
+        }
+        .car-section {
+            padding: 120px 0px 38px;
+        }
+        .Official-Source h2 {
+            font-size: 30px;
+        }
+        .always-checking {
+            margin-top: 12px;
+        }
+        .what-customer {
+            margin-top: 30px;
+        }
+        .customer-say h2 {
+            font-size: 30px;
+        }
+        .our-blog-section {
+            margin-top: 90px;
+        }
+        .our-blog-text h2 {
+            font-size: 30px;
+        }
+        .blog-content {
+            padding: 10px 16px;
+            position: relative;
+            text-align: center;}
+        .blog-content h3 {
+        font-size: 19px;
+            }
+            .blog-btn {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50% ,-50%);
+            }
+            .faq-section {
+                position: relative;
+                padding: 120px 0px 0px;
+                margin-top: 40px;
+                background: url('../img/faq-section.png') no-repeat  left 30px ,url('../img/red-car.png')no-repeat top right;
+                background-size: 60%, 37%;
+            }
+            .faq-questions {
+                margin-top: -42px;
+
+                padding: 14px 0px;
+
+            }
+            #footer-vin {
+                margin-top: 72%;
+            }
+            .car-bg {
+                background: url(../img/last-section-img.png)no-repeat center top;
+                height: 70vh;
+                background-size: cover;
+                margin-top: -242px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .search-form {
+                position: relative;
+                margin-top: 14px;
+
+            }
+            #footer{
+                text-align: center;
+                padding-top: 0px;
+            }
+            .header-social-icons{
+                display: none;
+            }
+            .blog-footer{
+                margin-top: 30px;
+            }
+/* login-page-media-query */
+.login-form h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+/* blog-page-css-responsive */
+.first-blogs{
+margin-top: 26px !important;
+}
+/* blog-detail-css-responsive */
+.blog-detail-section {
+    margin-top: 32px;
+}
+.detail-content {
+    padding: 8px;
+}
+.you-may-like{
+    margin-top: 40px !important;
+}
+/* decorder-css */
+.vin-number-content{
+    text-align: center;
+}
+.vin-number-content h4{
+    font-size: 20px;
+}
+.desktop-table{
+    overflow-x: scroll;
+}
+/* plan-page */
+.report{
+    margin-top: 20px;
+}
+.custom-style{
+    margin-top: 40px;
+}
+.payment-option {
+     position: relative; 
+    top: 20px;
+    right: 0px;
+    background: white;
+    box-shadow: 0px 0px 30px #ececec;
+    border-radius: 30px;
+     width: 100% !important;
+    padding: 0px !important;
+    margin: 10px;
+}
+.get-a-pacakage-section{
+   margin-top: 40px;
+}
+.get-a-package h1 {
+    font-size: 22px;
+}
+.payment-content {
+    padding: 26px;
+}
+.promo-code {
+    margin-top: 11px;
+}
+}
+
+
+@media screen and (min-width:552px) and (max-width:991px){
+    .mobile-tab-view{
+        text-align: center;
+    }
+    .car-section {
+        padding: 40px 0px;
+    }
+    .section-1-left h1 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .free-vin-check {
+
+        padding: 18px 70px;
+
+    }
+    .Official-Source br{
+        display: none;
+    }
+    .always-checking {
+        margin-top: 10px;
+    }
+    .odometer p {
+        background: url(../img/odometer.png) no-repeat left;
+        padding: 0px 0px 0px 51px;
+        color: #ee5439;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        background-size: 40px;
+    }
+    .theft p {
+
+        padding: 0px 0px 0px 51px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background-size: 40px;
+    }
+    .hidden-damage p {
+
+        padding: 0px 0px 0px 51px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background-size: 40px;
+    }
+    .technical-damage p {
+        padding: 0px 0px 0px 51px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background-size: 40px;
+    }
+    .car-privously p {
+        padding: 0px 0px 0px 51px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background-size: 40px;
+    }
+    .photos-previously p {
+        padding: 0px 0px 0px 51px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background-size: 40px;
+    }
+    .always-checking .tab-left {
+
+        padding-bottom: 14px;}
+     .what-customer {
+            margin-top: 40px;
+        }
+        .testimonial-box {
+
+            padding: 19px 10px 50px;
+            margin-top: 20px;
+        }
+        .our-blog-section {
+            margin-top: 80px;
+        }
+        .blog-content h3{
+            font-size: 18px;
+        }
+        .blog-content {
+            padding: 10px 20px 25px;
+            position: relative;
+        }
+        .blog-btn {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+        }
+        .read-more-btn {
+            background: #ea5237;
+            padding: 4px 28px;
+            border-radius: 7px;
+        }
+        .faq-questions {
+            margin-top: 22px;
+            background-color: white;
+            text-align: center;
+            padding: 14px 20px 30px;
+            box-shadow: 0px 0px 30px #f1f1f1;
+        }
+        .faq-section {
+            position: relative;
+            padding: 120px 0px;
+            margin-top: 80px;
+            background: url(../img/faq-section.png) no-repeat left 30px ,url(../img/red-car.png)no-repeat top right;
+            background-size: 60%, 33%;
+        }
+        .car-bg {
+
+            height: 50vh;
+
+        }
+        #footer {
+            padding-top: 22px;
+        }
+        /* blog-page-css-responsive */
+
+        .first-blogs{
+            margin-top: 26px !important;
+            }
+            .blog-footer{
+                margin-top: 30px;
+            }
+}
+@media screen and (min-width:992px) and (max-width:1100px) {
+    .free-vin-check {
+
+        padding: 18px 114px;
+        margin-top: 40px;
+    }
+    .car-bg {
+        background: url(../img/last-section-img.png)no-repeat center;
+        height: 52vh;
+
+    }
+    .faq-section {
+
+        background: url(../img/faq-section.png) no-repeat left 30px ,url(../img/red-car.png)no-repeat top right;
+        background-size: 60%, 35%;
+    }
+
+    .mail-icon-tab {
+        font-size: 13px;
+    }
+    /* blog-page-css-responsive */
+    .first-blogs{
+        margin-top: 40px !important;
+        }
+}
