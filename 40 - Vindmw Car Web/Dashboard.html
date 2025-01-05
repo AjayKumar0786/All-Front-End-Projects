@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/fontawesome-all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+     .dashboard-section{
+        background: url('./img/last-section-img.png') no-repeat center;
+        background-size: cover;
+      }
+    </style>
+</head>
+<body>
+    <!-- header-section -->
+    <section class="top-header">
+        <div class="container">
+            <div class="row align-items-center">
+             <div class="col-lg-2 col-6 col-md-4 ">
+                <p class="mb-1"><span><img src="./img/mail-icon.png" alt="mail-icon"></span> <a href="mailto:info@vindmw.com" class="text-white text-decoration-none mail-icon-tab ">info@vindmw.com</a></p>
+             </div>
+             <div class="col-lg-2 col-6 col-md-4 mobile-tab-view">
+                <p class="mb-1"><span><img src="./img/phone-icon.png" alt="mail-icon"></span> <a href="tel:7462874656" class="text-white text-decoration-none mail-icon-tab">7462874656</a></p>
+
+             </div>
+             
+             <div class="col-lg-8 text-end col-md-4">
+                <ul class="header-social-icons mb-1">
+                    <li><a href="#"><img src="./img/facebook-icon.png" alt="fb-icon"></a></li>
+                    <li><a href="#"><img src="./img/whatsapp-icon.png" alt="whatsapp-icon"></a></li>
+                    <li><a href="#"><img src="./img/instagram.png" alt="instagram-icon"></a></li>
+                    <li><a href="#"><img src="./img/yotube.png" alt="yotube-icon"></a></li>
+                </ul>
+
+             </div>
+
+            </div>
+        </div>
+    </section>
+<!-- header-section -->
+<!-- navbar-section  -->
+<section class="dashboard-section">
+ <div class="container">
+   <div class="row ">
+    <div class="col-lg-3 dashboard-col" >
+        <div class="dashboard-content">
+         <h5>Hello, Lorem Ipsum
+            </h5>
+            <p>info@Vindmw.com</p>
+            <div class="tab">
+                <div class="tablinks active"  onclick="openCity(event, 'Prepaid')">
+                     <div class="d-flex align-items-center  justify-content-between">
+                        <p class="mb-1 ">
+                             Prepaid<br>
+                            Reports</p>
+                        <a href="javascript:void(0)" class="get-more-btn">Get More</a>
+                     </div>
+                </div>
+                <div class=" tablinks" onclick="openCity(event, 'Dashboard')">
+                <p> <span><img src="./img/dasboard-icon.png" alt="dashboard" class="img-fluid"> </span>&nbsp;&nbsp; Dashboard</p>
+                </div>
+                <div class=" tablinks" onclick="openCity(event, 'report')">
+                    <p> <span><img src="./img/report.png" alt="report" class="img-fluid"> </span>&nbsp;&nbsp; My Reports</p>
+                    </div>
+                <div class=" tablinks" onclick="openCity(event, 'Favorites')">
+                <p> <span><img src="./img/my-favorite.png" alt="my-favorite" class="img-fluid"> </span>&nbsp;&nbsp; My Favorites</p>
+                </div>
+                <div class=" tablinks" onclick="openCity(event, 'Searches')">
+                <p> <span><img src="./img/searches.png" alt="searches" class="img-fluid"> </span>&nbsp;&nbsp; Saved Searches</p>
+                </div>
+                <div class=" tablinks" onclick="openCity(event, 'Subscriptions')">
+                <p> <span><img src="./img/subscription.png" alt="subscription" class="img-fluid"> </span>&nbsp;&nbsp; Subscriptions</p>
+                </div>
+                <div class=" tablinks" onclick="openCity(event, 'Billing')">
+                <p> <span><img src="./img/billing.png" alt="billing" class="img-fluid"> </span>&nbsp;&nbsp; Billing</p>
+                </div>
+               
+               
+               
+              
+               
+               
+              </div>
+            <div class="black-box">
+                <h4 class="text-white">Want to get Free
+                    Vehicle History Report?</h4>
+                    <p>You get a free report every time a user purchase their first report throught your referral link</p>
+                 <ul class="social-link p-0">
+                    <li><a href=""><img src="./img/fb.png" alt="" class="img-fluid"></a></li>
+                    <li><a href=""><img src="./img/twittwe.png" alt="twittwe"></a></li>
+                    <li><a href=""><img src="./img/gmail.png" alt="gmail"></a></li>
+                 </ul>
+            </div>
+        
+        </div>
+    </div>
+    <div class="col-lg-9 dashboard-right ">
+        <div class="d-flex justify-content-between align-items-center ">
+           <a href="./index.html"> <img src="./img/main-logo.png" alt="main-logo"></a>
+           <div class="d-flex align-items-center mt-lg-4">
+            <a href="./Login.html" class="Log-in-nav-btn " id="btn-blog">Log in</a>
+            <div class="dropdown">
+                <button class="btn  custom-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ENG
+                </button>
+                <div class="dropdown-menu custom-dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">Action</button>
+                  <button class="dropdown-item" type="button">Another action</button>
+                  <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+              </div>
+         </div>
+         
+        </div>
+     <div class="tabs-content mt-lg-5">
+        <div id="Prepaid" class="tabcontent" style="display: block;">
+            <h3>Prepaid</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="Dashboard" class="tabcontent">
+            <h3>Dashboard</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+          <div id="report" class="tabcontent">
+            <h3>report</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+        <div id="Favorites" class="tabcontent">
+            <h3>favorites</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+ 
+          <div id="Searches" class="tabcontent">
+            <h3>Searches</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+          <div id="Subscriptions" class="tabcontent">
+            <h3>Subscriptions</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+          <div id="Billing" class="tabcontent">
+            <h3>Billing</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+         
+        
+         
+     </div>
+          
+
+        </div>
+   </div>
+ </div> 
+
+    
+  
+    </section>
+
+
+
+
+
+
+
+<!-- footer-copywrite -->
+
+<div class="copyright blog-footer">
+    <div class="container">
+    <div class=" col-md-12 col-xs-12">
+    <p class="m-0 text-center">Copy right @2022  All right reserved Design & Development by <a href="https://bajajitsolution.com/" target="_blank">BAJAJ IT SOLUTION</a>
+  
+  </p>
+  </div>
+
+</div>
+</div>
+<script>
+    function openCity(evt, Name) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(Name).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+<!-- footer-copywrite -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<!--end-blog-section -->
+<script src="https://kit.fontawesome.com/eb764b0fc8.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
